@@ -1,5 +1,6 @@
 import React from "react";
 import DoctorCard from "./DoctorCard";
+import doctorData from "../Scripts/doctorsData";
 import profile1 from "../Assets/profile-1.png";
 import profile2 from "../Assets/profile-2.png";
 import profile3 from "../Assets/profile-3.png";
@@ -23,34 +24,16 @@ function Doctors() {
       </div>
 
       <div className="dt-cards-content">
-        <DoctorCard
-          img={profile1}
-          name="Dr. Kathryn Murphy"
-          title="General Surgeons"
-          stars="4.9"
-          reviews="1800"
-        />
-        <DoctorCard
-          img={profile2}
-          name="Dr. Jacob Jones"
-          title="Hematologists"
-          stars="4.8"
-          reviews="700"
-        />
-        <DoctorCard
-          img={profile3}
-          name="Dr. Jenny Wilson"
-          title="Endocrinologists"
-          stars="4.7"
-          reviews="450"
-        />
-        <DoctorCard
-          img={profile4}
-          name="Dr. Albert Flores"
-          title="Hematologists"
-          stars="4.8"
-          reviews="500"
-        />
+        {doctorData.map((doctor, index) => (
+          <DoctorCard
+            key={index}
+            img={doctor.img}
+            name={doctor.name}
+            title={doctor.title}
+            stars={doctor.stars}
+            reviews={doctor.reviews}
+          />
+        ))}
       </div>
     </div>
   );

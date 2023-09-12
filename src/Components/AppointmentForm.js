@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import "../Styles/AppointmentForm.css";
 import { ToastContainer, toast } from "react-toastify";
 
 function AppointmentForm() {
+  const navigate = useNavigate();
+
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
@@ -62,6 +64,22 @@ function AppointmentForm() {
     setPreferredMode("default");
     setFormErrors({});
 
+    // make form data object
+    const formData = {
+      patientName,
+      patientNumber,
+      patientGender,
+      appointmentTime,
+      preferredMode,
+    };
+
+    // Navigate to FormSubmit page with form data
+    navigate("/form-submit", {
+      state: {
+        formData,
+      },
+    });
+
     toast.success("Appointment Scheduled !", {
       position: toast.POSITION.TOP_CENTER,
       onOpen: () => setIsSubmitted(true),
@@ -91,7 +109,9 @@ function AppointmentForm() {
               onChange={(e) => setPatientName(e.target.value)}
               required
             />
-            {formErrors.patientName && <p className="error-message">{formErrors.patientName}</p>}
+            {formErrors.patientName && (
+              <p className="error-message">{formErrors.patientName}</p>
+            )}
           </label>
 
           <br />
@@ -103,7 +123,9 @@ function AppointmentForm() {
               onChange={(e) => setPatientNumber(e.target.value)}
               required
             />
-            {formErrors.patientNumber && <p className="error-message">{formErrors.patientNumber}</p>}
+            {formErrors.patientNumber && (
+              <p className="error-message">{formErrors.patientNumber}</p>
+            )}
           </label>
 
           <br />
@@ -119,7 +141,9 @@ function AppointmentForm() {
               <option value="female">Female</option>
               <option value="private">I will inform Doctor only</option>
             </select>
-            {formErrors.patientGender && <p className="error-message">{formErrors.patientGender}</p>}
+            {formErrors.patientGender && (
+              <p className="error-message">{formErrors.patientGender}</p>
+            )}
           </label>
 
           <br />
@@ -131,7 +155,9 @@ function AppointmentForm() {
               onChange={(e) => setAppointmentTime(e.target.value)}
               required
             />
-            {formErrors.appointmentTime && <p className="error-message">{formErrors.appointmentTime}</p>}
+            {formErrors.appointmentTime && (
+              <p className="error-message">{formErrors.appointmentTime}</p>
+            )}
           </label>
 
           <br />
@@ -146,7 +172,9 @@ function AppointmentForm() {
               <option value="voice">Voice Call</option>
               <option value="video">Video Call</option>
             </select>
-            {formErrors.preferredMode && <p className="error-message">{formErrors.preferredMode}</p>}
+            {formErrors.preferredMode && (
+              <p className="error-message">{formErrors.preferredMode}</p>
+            )}
           </label>
 
           <br />
@@ -154,7 +182,13 @@ function AppointmentForm() {
             Confirm Appointment
           </button>
 
-          <p className="success-message" style={{display: isSubmitted ? "block" : "none"}}>Appointment details has been sent to the patients phone number via SMS.</p>
+          <p
+            className="success-message"
+            style={{ display: isSubmitted ? "block" : "none" }}
+          >
+            Appointment details has been sent to the patients phone number via
+            SMS.
+          </p>
         </form>
       </div>
 

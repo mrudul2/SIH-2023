@@ -45,6 +45,7 @@
     gap: 32px;
 }
 .dt-card {
+    margin: 0 0 32px 0;
     width: 332px;
     height: 400px;
     gap: 32px;
@@ -83,6 +84,25 @@
     font-weight: bold;
     letter-spacing: .7px;
 }
+.text-appointment-btn {
+    margin: 2px 0 0;
+    /* padding: 14px 20px; */
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 28px;
+    outline: transparent;
+    background-color: #1A8EFD;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: .8px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.text-appointment-btn:hover {
+    color: #1A8EFD;
+    background-color: transparent;
+    border: 1px solid #1A8EFD;
+}
 /* Responsive */
 @media screen and (max-width: 700px) {
     .dt-title {
@@ -91,5 +111,8 @@
     .dt-description {
         margin: 48px 0 0;
         font-size: 18px;
+    }
+    .text-appointment-btn {
+        font-size: 16px;
     }
 }

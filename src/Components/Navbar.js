@@ -48,19 +48,56 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a href="#about" className="navbar-links">
+          <Link to="/about" className="navbar-links">
             About
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#reviews" className="navbar-links">
+          <Link to="/reviews" className="navbar-links">
             Reviews
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#doctors" className="navbar-links">
+          <Link to={"/doctors"} className="navbar-links">
             Doctors
-          </a>
+          </Link>
+        </li>
+
+        <li>
+          {/* Dropdown for regular login */}
+          <div className="navbar-dropdown">
+            <span className="navbar-links">User</span>
+            <ul className="navbar-dropdown-content">
+              <li>
+                <Link to="/user-login" className="navbar-links">
+                  Login
+                </Link>
+              </li>
+              <li>
+                <Link to="/user-register" className="navbar-links">
+                  Register
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          {/* Dropdown for admin login */}
+          <div className="navbar-dropdown">
+            <span className="navbar-links">Admin</span>
+            <ul className="navbar-dropdown-content">
+              <li>
+                <Link to="/admin-login" className="navbar-links">
+                  Login
+                </Link>
+              </li>
+              <li>
+                <Link to="/admin-register" className="navbar-links">
+                  Register
+                </Link>
+              </li>
+            </ul>
+          </div>
         </li>
       </ul>
 
@@ -109,6 +146,42 @@ function Navbar() {
             <a onClick={openNav} href="#contact">
               Contact
             </a>
+          </li>
+          <li>
+            {/* Mobile dropdown for regular login */}
+            <div className="navbar-dropdown">
+              <span className="navbar-links">User</span>
+              <ul className="navbar-dropdown-content">
+                <li>
+                  <Link onClick={openNav} to="/user-login">
+                    Login
+                  </Link>
+                </li>
+                <li>
+                  <Link onClick={openNav} to="/user-register">
+                    Register
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            {/* Mobile dropdown for admin login */}
+            <div className="navbar-dropdown">
+              <span className="mobile-navbar-links">Admin</span>
+              <ul className="navbar-dropdown-content">
+                <li>
+                  <Link onClick={openNav} to="/admin-login">
+                    Login
+                  </Link>
+                </li>
+                <li>
+                  <Link onClick={openNav} to="/admin-register">
+                    Register
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </li>
         </ul>
       </div>
