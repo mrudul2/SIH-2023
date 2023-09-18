@@ -7,6 +7,9 @@ import profile6 from "../Assets/profile-6.png";
 import profile7 from "../Assets/profile-7.png";
 import profile8 from "../Assets/profile-8.png";
 import profile9 from "../Assets/profile-9.png";
+import profile10 from "../Assets/profile-10-mainmain.png";
+import profile11 from "../Assets/profile-11.jpg";
+import profile12 from "../Assets/profile-12.jpg";
 
 const doctorData = [
   {
@@ -71,6 +74,27 @@ const doctorData = [
     title: "Orthopedic Surgeon",
     stars: "4.9",
     reviews: "1500",
+  },
+  {
+    img: profile10,
+    name: "Dr. Meera Joshi",
+    title: "Ophthalmologist",
+    stars: "4.7",
+    reviews: "600",
+  },
+  {
+    img: profile11,
+    name: "Dr. Rohit Verma",
+    title: "Rheumatologist",
+    stars: "4.7",
+    reviews: "550",
+  },
+  {
+    img: profile12,
+    name: "Dr. Rahul Agarwal",
+    title: "Urologist",
+    stars: "4.8",
+    reviews: "750",
   },
 ];
 

@@ -1,6 +1,6 @@
 .form-container {
-    /* width: 100%;
-    height: 100vh; */
+    margin-left: 40vh;
+    width: 140vh;
     padding: 32px;
     display: flex;
     flex-direction: column;

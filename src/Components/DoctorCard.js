@@ -24,6 +24,7 @@ function DoctorCard(props) {
         <span className="dt-card-reviews"> ({props.reviews}+ Reviews)</span>
       </p>
       <button
+        style={{marginTop:"10px"}}
         className="text-appointment-btn"
         type="button"
         onClick={handleBookAppointmentClick}

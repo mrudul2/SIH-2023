@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from "react";
+import Swal from "sweetalert2";
 import registerstyle from "../Styles/Register.module.css";
 import axios from "axios";
+import {app} from "../firebaseConfig"
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
 import { useNavigate, NavLink } from "react-router-dom";
 
 const UserRegister = () => {
+  const auth = getAuth();
   const navigate = useNavigate();
 
   const [formErrors, setFormErrors] = useState({});
@@ -57,18 +61,34 @@ const UserRegister = () => {
     e.preventDefault();
     setFormErrors(validateForm(user));
     setIsSubmit(true);
-    // if (!formErrors) {
-    //   setIsSubmit(true);
-    // }
+    createUserWithEmailAndPassword(auth, user.email, user.password)
+  .then((userCredential) => {
+    const user = userCredential.user;
+    Swal.fire({
+      position: 'top-center',
+      icon: 'success',
+      title: 'User Registered Successfully',
+      showConfirmButton: false,
+      timer: 3500
+    })
+    
+    navigate('/user-login');
+    
+  })
+  .catch((error) => {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    // ..
+  });
   };
 
   useEffect(() => {
     if (Object.keys(formErrors).length === 0 && isSubmit) {
       console.log(user);
-      axios.post("", user).then((res) => {
-        alert(res.data.message);
-        navigate("/login", { replace: true });
-      });
+      // axios.post("/sih-prototype-techteds.firebaseapp.com", user).then((res) => {
+      //   alert(res.data.message);
+      //   navigate("/login", { replace: true });
+      // });
     }
   }, [formErrors]);
   return (

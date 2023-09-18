@@ -2,8 +2,15 @@ import React, { useState, useEffect } from "react";
 import loginstyle from "../Styles/Login.module.css";
 import axios from "axios";
 import { useNavigate, NavLink } from "react-router-dom";
+import Swal from "sweetalert2";
+import {app} from "../firebaseConfig"
+import {getAuth, signInWithEmailAndPassword, signInWithPopup,GoogleAuthProvider} from "firebase/auth";
+
 const UserLogin = ({ setUserState }) => {
+  const auth = getAuth();
   const navigate = useNavigate();
+  const googleProvider= new GoogleAuthProvider();
+
   const [formErrors, setFormErrors] = useState({});
   const [isSubmit, setIsSubmit] = useState(false);
   const [user, setUserDetails] = useState({
@@ -36,20 +43,58 @@ const UserLogin = ({ setUserState }) => {
     e.preventDefault();
     setFormErrors(validateForm(user));
     setIsSubmit(true);
-    // if (!formErrors) {
-
-    // }
+    signInWithEmailAndPassword(auth,user.email,user.password)
+    .then((userCredential) => {
+      const user = userCredential.user;
+      Swal.fire({
+        position: 'top-center',
+        icon: 'success',
+        title: 'Sign In Successful',
+        showConfirmButton: false,
+        timer: 3500
+      })
+      
+      navigate('/');
+      
+    })
+    .catch((error) => {
+      const errorCode = error.code;
+      const errorMessage = error.message;
+      alert("Invalid Credentials!")
+      // ..
+    });
   };
+
+  const GoogleAuthentication =(e) => {
+    e.preventDefault();
+    setFormErrors(validateForm(user));
+    setIsSubmit(true);
+    signInWithPopup(auth, googleProvider)
+  .then((result) => {
+    console.log(result.user)
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: 'Sign In Successful',
+      showConfirmButton: false,
+      timer: 1500
+    })
+    navigate('/appointment')
+  }).catch((error) => {
+    alert(error.message) 
+  });
+
+  }
 
   useEffect(() => {
     if (Object.keys(formErrors).length === 0 && isSubmit) {
       console.log(user);
-      axios.post("", user).then((res) => {
-        // backend db url
-        alert(res.data.message);
-        setUserState(res.data.user);
-        navigate("/user-profile", { replace: true });
-      });
+      // axios.post("", user).then((res) => {
+      //   // backend db url
+      //   alert(res.data.message);
+      //   setUserState(res.data.user);
+      //   navigate("/user-profile", { replace: true });
+      // });
     }
   }, [formErrors]);
   return (
@@ -77,6 +122,10 @@ const UserLogin = ({ setUserState }) => {
           <p className={loginstyle.error}>{formErrors.password}</p>
           <button className={loginstyle.button_common} onClick={loginHandler}>
             Login
+          </button>
+          <button className="google-signup-button" onClick={GoogleAuthentication}>
+          <img src="./google-icon.png"/>
+            Sign In With Google
           </button>
         </form>
         <NavLink to="/user-register">Not yet registered? Register Now</NavLink>

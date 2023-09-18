@@ -107,7 +107,8 @@ function Navbar() {
         disabled={isButtonDisabled}
         onClick={handleChatBtnClick}
       >
-        <FontAwesomeIcon icon={faCommentDots} /> Live Chat
+        <FontAwesomeIcon icon={faCommentDots} /> 
+        <Link to='/chatroom'>Live Chat</Link>
       </button>
 
       {/* Mobile */}

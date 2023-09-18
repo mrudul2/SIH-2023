@@ -22,6 +22,9 @@ import AdminRegister from "./Components/AdminRegister";
 import UserRegister from "./Components/UserRegister";
 import UserProfile from "./Components/UserProfile";
 import AdminProfile from "./Components/AdminProfile";
+import Chatroom from "./Chatroom/Chatroom";
+import Calendly from "./Components/calendly";
+import APItesting from "./Components/apitesting";
 
 function App() {
   const [userState, setUserState] = useState({});
@@ -40,6 +43,9 @@ function App() {
           <Route path="form-submit" element={<FormSubmit />} />
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/doctors" element={<Doctors />} />
+          <Route path="/chatroom" element={<Chatroom/>}/>
+          <Route path="/bookappointment" element={<Calendly/>}/>
+          <Route path="/apitesting" element={<APItesting/>}/>
 
           <Route
             path="/user-login"
