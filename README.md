@@ -68,6 +68,7 @@ To use the Hospital Appointment Scheduling System, follow these steps:
 ## Contributors
 Abhishek Dubey
 Mrudul Joshi
+Aishwarya Ravi
 
 ## Contributing
 
