@@ -65,6 +65,10 @@ To use the Hospital Appointment Scheduling System, follow these steps:
 
 4. Receive notifications with appointment details.
 
+## Contributors
+Abhishek Dubey
+Mrudul Joshi
+
 ## Contributing
 
 We welcome contributions from the community to improve and enhance the Hospital Appointment Scheduling System. To contribute, please follow these guidelines:
