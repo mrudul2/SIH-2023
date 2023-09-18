@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Health-Plus/static/css/main.39229837.css",
+    "main.js": "/Health-Plus/static/js/main.ea92c327.js",
+    "static/media/doctor-picture.png": "/Health-Plus/static/media/doctor-picture.f8e0d07a791652d54dcc.png",
+    "static/media/profile-10-mainmain.png": "/Health-Plus/static/media/profile-10-mainmain.f33347fc013ec126ec42.png",
+    "static/media/profile-1.png": "/Health-Plus/static/media/profile-1.00f1f9ad68b6bd897139.png",
+    "static/media/doctor-group.png": "/Health-Plus/static/media/doctor-group.01394386d8270bd40bc1.png",
+    "static/media/profile-4.png": "/Health-Plus/static/media/profile-4.71ef62645a8b08978448.png",
+    "static/media/doctor-book-appointment.png": "/Health-Plus/static/media/doctor-book-appointment.edb3f4ac282ff3fefaec.png",
+    "static/media/profile-8.png": "/Health-Plus/static/media/profile-8.01c0523e687f210d3c58.png",
+    "static/media/profile-3.png": "/Health-Plus/static/media/profile-3.b9e0703d3c3887787ae0.png",
+    "static/media/profile-5.png": "/Health-Plus/static/media/profile-5.b0d13da89e0202603933.png",
+    "static/media/profile-9.png": "/Health-Plus/static/media/profile-9.aac220ce96983316c193.png",
+    "static/media/profile-2.png": "/Health-Plus/static/media/profile-2.1edfbbfb37134d15f7de.png",
+    "static/media/profile-7.png": "/Health-Plus/static/media/profile-7.a8f8b441dea4d683aab0.png",
+    "static/media/profile-6.png": "/Health-Plus/static/media/profile-6.7d2527e21516f40b1754.png",
+    "static/media/profile-12.jpg": "/Health-Plus/static/media/profile-12.9f42733fe542c4976738.jpg",
+    "static/media/profile-11.jpg": "/Health-Plus/static/media/profile-11.78bef544deba50afc79a.jpg",
+    "index.html": "/Health-Plus/index.html",
+    "main.39229837.css.map": "/Health-Plus/static/css/main.39229837.css.map",
+    "main.ea92c327.js.map": "/Health-Plus/static/js/main.ea92c327.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39229837.css",
+    "static/js/main.ea92c327.js"
+  ]
+}
