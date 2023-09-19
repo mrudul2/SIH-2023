@@ -7,9 +7,9 @@ import profile6 from "../Assets/Images/profile-6.png";
 import profile7 from "../Assets/Images/profile-7.png";
 import profile8 from "../Assets/Images/profile-8.png";
 import profile9 from "../Assets/Images/profile-9.png";
-import profile10 from "../Assets/Images/profile-10-mainmain.png";
-import profile11 from "../Assets/Images/profile-11.jpg";
-import profile12 from "../Assets/Images/profile-12.jpg";
+import profile10 from "../Assets/Images/profile-10.png";
+import profile11 from "../Assets/Images/profile-11.png";
+import profile12 from "../Assets/Images/profile-12.png";
 
 const doctorData = [
   {
@@ -84,14 +84,14 @@ const doctorData = [
   },
   {
     img: profile11,
-    name: "Dr. Rohit Verma",
+    name: "Dr. Priya Verma",
     title: "Rheumatologist",
     stars: "4.7",
     reviews: "550",
   },
   {
     img: profile12,
-    name: "Dr. Rahul Agarwal",
+    name: "Dr. Rohit Agarwal",
     title: "Urologist",
     stars: "4.8",
     reviews: "750",
