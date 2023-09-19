@@ -1,15 +1,15 @@
-import profile1 from "../Assets/profile-1.png";
-import profile2 from "../Assets/profile-2.png";
-import profile3 from "../Assets/profile-3.png";
-import profile4 from "../Assets/profile-4.png";
-import profile5 from "../Assets/profile-5.png";
-import profile6 from "../Assets/profile-6.png";
-import profile7 from "../Assets/profile-7.png";
-import profile8 from "../Assets/profile-8.png";
-import profile9 from "../Assets/profile-9.png";
-import profile10 from "../Assets/profile-10-mainmain.png";
-import profile11 from "../Assets/profile-11.jpg";
-import profile12 from "../Assets/profile-12.jpg";
+import profile1 from "../Assets/Images/profile-1.png";
+import profile2 from "../Assets/Images/profile-2.png";
+import profile3 from "../Assets/Images/profile-3.png";
+import profile4 from "../Assets/Images/profile-4.png";
+import profile5 from "../Assets/Images/profile-5.png";
+import profile6 from "../Assets/Images/profile-6.png";
+import profile7 from "../Assets/Images/profile-7.png";
+import profile8 from "../Assets/Images/profile-8.png";
+import profile9 from "../Assets/Images/profile-9.png";
+import profile10 from "../Assets/Images/profile-10-mainmain.png";
+import profile11 from "../Assets/Images/profile-11.jpg";
+import profile12 from "../Assets/Images/profile-12.jpg";
 
 const doctorData = [
   {

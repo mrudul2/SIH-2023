@@ -8,6 +8,7 @@ import {
 import "../Styles/Navbar.css";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
+import Logo from "../Assets/Images/Logo/swasthsathi-navBar-Logo.png";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -31,7 +32,7 @@ function Navbar() {
     <div className="navbar-section">
       <h1 className="navbar-title">
         <Link to="/">
-          Health <span className="navbar-sign">+</span>
+          <img src={Logo} alt="logo" className="logo" />
         </Link>
       </h1>
 
@@ -48,14 +49,14 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <Link to="/about" className="navbar-links">
+          <a href="#about" className="navbar-links">
             About
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="/reviews" className="navbar-links">
+          <a href="#reviews" className="navbar-links">
             Reviews
-          </Link>
+          </a>
         </li>
         <li>
           <Link to={"/doctors"} className="navbar-links">
@@ -63,8 +64,11 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <a href='https://sih-medicine-delivery.netlify.app/'className="navbar-links">
-          Medicine
+          <a
+            href="https://sih-medicine-delivery.netlify.app/"
+            className="navbar-links"
+          >
+            Medicine
           </a>
         </li>
 
@@ -112,8 +116,10 @@ function Navbar() {
         disabled={isButtonDisabled}
         onClick={handleChatBtnClick}
       >
-        <FontAwesomeIcon icon={faCommentDots} /> 
-        <Link to='/chatroom'>Live Chat</Link>
+        <FontAwesomeIcon icon={faCommentDots} />
+        <Link to="/chatroom" className="linkTo">
+          Live Chat
+        </Link>
       </button>
 
       {/* Mobile */}

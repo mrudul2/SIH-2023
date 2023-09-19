@@ -1,24 +1,22 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
 import Hero from "../Components/Hero";
 import Info from "../Components/Info";
 import About from "../Components/About";
-import BookAppointment from "../Components/BookAppointment";
 import Reviews from "../Components/Reviews";
-import Doctors from "../Components/Doctors";
 import Footer from "../Components/Footer";
 
 function Home() {
   return (
-    <div className="home-section">
-      {/* <Navbar /> */}
+    <div
+      className="home-section"
+      style={{ background: "rgba(214, 226, 241, 0.7)" }}
+    >
       <Hero />
       <Info />
-      {/* <About />
-      <BookAppointment />
+      <About />
+      {/* <BookAppointment /> */}
       <Reviews />
-      <Doctors />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }
