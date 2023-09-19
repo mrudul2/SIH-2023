@@ -1,4 +1,6 @@
+![logo-color_2](https://github.com/mrudul2/SIH-2023/assets/104382962/014154ec-ddbe-47fc-ac99-20515bf8260f)
 # SwasthSaathi - Streamlining Medical Appointment Scheduling and Enhancing Healthcare Experience
+
 
 **SwasthSaathi** is an innovative system designed to revolutionize the healthcare industry by simplifying medical appointment scheduling, ensuring efficient doctor presence tracking, and aiding in disease detection using advanced technologies. With a strong focus on improving patient experience and streamlining hospital operations, **SwasthSaathi** is the future of healthcare technology.
 
@@ -113,12 +115,12 @@ To use the Hospital Appointment Scheduling System, follow these steps:
 4. Receive notifications with appointment details.
 
 ## Contributors
-- [Mrudul Joshi - ](https://github.com/mrudul2) [EMail](mruduljoshi02@gmail.com) :e-mail:
-- [Aishwarya Ravi - ](https://github.com/AishwaryaRavi07) [EMail](aravi_b21@el.vjti.ac.in) :e-mail:
-- [Soham Sangole - ](https://github.com/Sohamlad2003) [EMail](sohamajaysangole@gmail.com) :e-mail:
-- [Abhishek Dubey - ](https://github.com/AbhiD1678) [EMail](avdubey_b21@el.vjti.ac.in) :e-mail:
-- [Nidhi Shah - ](https://github.com/AishwaryaRavi07) [EMail](aravi_b21@el.vjti.ac.in) :e-mail:
-- [Subodh Dalvi - ](https://github.com/HumourousTree) [EMail](ssdalvi_b21@ce.vjti.ac.in) :e-mail:
+- [Mrudul Joshi - ](https://github.com/mrudul2) [EMail](mailto:mruduljoshi02@gmail.com) :e-mail:
+- [Aishwarya Ravi - ](https://github.com/AishwaryaRavi07) [EMail](mailto:aravi_b21@el.vjti.ac.in) :e-mail:
+- [Soham Sangole - ](https://github.com/Sohamlad2003) [EMail](mailto:sohamajaysangole@gmail.com) :e-mail:
+- [Abhishek Dubey - ](https://github.com/AbhiD1678) [EMail](mailto:avdubey_b21@el.vjti.ac.in) :e-mail:
+- [Nidhi Shah - ](https://github.com/AishwaryaRavi07) [EMail](mailto:npshah_b21@it.vjti.ac.in) :e-mail:
+- [Subodh Dalvi - ](https://github.com/HumourousTree) [EMail](mailto:ssdalvi_b21@ce.vjti.ac.in) :e-mail:
 
 ## Contributing
 
