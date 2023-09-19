@@ -25,6 +25,7 @@ import Calendly from "./Components/calendly";
 import APItesting from "./Components/apitesting";
 import MainMap from "./EmergencyMap/MainMap";
 import AppointmentForm from "./Components/AppointmentForm";
+import DiseasePrediction from "./Components/DiseasePrediction";
 
 function App() {
   const [userState, setUserState] = useState({});
@@ -46,6 +47,7 @@ function App() {
           <Route path="/bookappointment" element={<Calendly />} />
           <Route path="/apitesting" element={<APItesting />} />
           <Route path="/emergencymap" element={<MainMap />} />
+          <Route path="/diseaseprediction" element={<DiseasePrediction/>} />
 
           <Route
             path="/user-login"
