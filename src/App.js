@@ -10,8 +10,6 @@ import Home from "./Pages/Home";
 import About from "./Components/About";
 import Legal from "./Pages/Legal";
 import NotFound from "./Pages/NotFound";
-import Appointment from "./Pages/Appointment";
-import AppointmentHome from "./Components/AppointmentForm";
 import Reviews from "./Components/Reviews";
 import Doctors from "./Components/Doctors";
 import Navbar from "./Components/Navbar";
@@ -26,6 +24,7 @@ import Chatroom from "./Chatroom/Chatroom";
 import Calendly from "./Components/calendly";
 import APItesting from "./Components/apitesting";
 import MainMap from "./EmergencyMap/MainMap";
+import AppointmentForm from "./Components/AppointmentForm";
 
 function App() {
   const [userState, setUserState] = useState({});
@@ -37,17 +36,16 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/appointmentForm" element={<AppointmentForm />} />
           <Route path="/legal" element={<Legal />} />
           <Route path="/about" element={<About />} />
-          <Route path="/appointment" element={<Appointment />} />
-          <Route path="/appointmentHome" element={<AppointmentHome />} />
           <Route path="form-submit" element={<FormSubmit />} />
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/doctors" element={<Doctors />} />
-          <Route path="/chatroom" element={<Chatroom/>}/>
-          <Route path="/bookappointment" element={<Calendly/>}/>
-          <Route path="/apitesting" element={<APItesting/>}/>
-          <Route path="/emergencymap" element={<MainMap/>}/>
+          <Route path="/chatroom" element={<Chatroom />} />
+          <Route path="/bookappointment" element={<Calendly />} />
+          <Route path="/apitesting" element={<APItesting />} />
+          <Route path="/emergencymap" element={<MainMap />} />
 
           <Route
             path="/user-login"

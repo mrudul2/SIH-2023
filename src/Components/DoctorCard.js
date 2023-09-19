@@ -7,7 +7,7 @@ function DoctorCard(props) {
   const navigate = useNavigate();
 
   const handleBookAppointmentClick = () => {
-    navigate("/appointment", { state: { doctorName: props.name } });
+    navigate("/appointmentForm", { state: { doctorName: props.name } });
   };
 
   return (
@@ -24,7 +24,7 @@ function DoctorCard(props) {
         <span className="dt-card-reviews"> ({props.reviews}+ Reviews)</span>
       </p>
       <button
-        style={{marginTop:"10px"}}
+        style={{ marginTop: "10px" }}
         className="text-appointment-btn"
         type="button"
         onClick={handleBookAppointmentClick}
