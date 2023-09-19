@@ -73,13 +73,13 @@ const UserLogin = ({ setUserState }) => {
   .then((result) => {
     console.log(result.user)
     Swal.fire({
-      position: 'top-end',
+      position: 'top-center',
       icon: 'success',
       title: 'Sign In Successful',
       showConfirmButton: false,
       timer: 1500
     })
-    navigate('/appointment')
+    navigate('/appointmentForm')
   }).catch((error) => {
     alert(error.message) 
   });
