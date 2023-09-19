@@ -4,7 +4,6 @@
     justify-content: center;
     align-items: center;
     gap: 24px;
-    background: linear-gradient(to right, #ECF2FF, #FBFCFF);
 }
 /* Image */
 .about-image-content {
@@ -33,7 +32,7 @@
     position: absolute;
     width: 75%;
     height: 4px;
-    background-color: #9D2553;
+    background-color: #162e4b;
     border-radius: 8px;
     left: 0;
     bottom: -12px;
@@ -72,7 +71,7 @@
     line-height: 1.6rem;
 }
 .fa-icon {
-    color: #9D2553;
+    color: #162e4b;
 }
 /* Responsive */
 @media screen and (max-width: 1000px) {

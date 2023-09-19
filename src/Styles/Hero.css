@@ -1,32 +1,43 @@
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+
 .hero-section {
     padding: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
-    background: linear-gradient(to right, #ECF2FF, #FBFCFF);
 }
 /* Text section */
 .text-section {
     width: 60%;
     padding: 0 32px;
+    text-align: center; /* Center-align text */
 }
 .text-headline {
     margin-bottom: 12px;
     color: rgb(77, 75, 75);
     font-family: 'Rubik', sans-serif;
-    font-size: 22px;
+    font-size: 32px;
     font-weight: bold;
     letter-spacing: .7px;
+    align-self: center;
 }
 .text-title {
+    margin-left: 17vh;
     width: 500px;
-    color: black;
+    color: #092d5a;
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: bold;
 }
 .text-descritpion {
+   
     width: 475px;
     margin: 32px 0;
     color: rgb(77, 75, 75);
@@ -42,7 +53,7 @@
     border: 1px solid transparent;
     border-radius: 28px;
     outline: transparent;
-    background-color: #1A8EFD;
+    background-color: #447BBE !important;
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
     letter-spacing: .8px;
@@ -50,9 +61,9 @@
     transition: all .4s ease;
 }
 .text-appointment-btn:hover {
-    color: #1A8EFD;
-    background-color: transparent;
-    border: 1px solid #1A8EFD;
+    color: #447BBE !important;
+    background-color: transparent !important;
+    border: 1px solid #7ea4d2;
 }
 .text-stats {
     margin-top: 40px;

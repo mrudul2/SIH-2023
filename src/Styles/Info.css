@@ -1,7 +1,6 @@
 .info-section {
     padding: 0 32px;
     text-align: center;
-    background-color: white;
 }
 .info-title-content {
     margin: 64px 0 128px 0;
@@ -19,7 +18,7 @@
     position: absolute;
     width: 75%;
     height: 4px;
-    background-color: #9D2553;
+    background-color: #162e4b;
     border-radius: 8px;
     left: 0;
     bottom: -12px;
@@ -44,7 +43,7 @@
     height: auto;
     border: 2px solid #d7d3d3;
     border-radius: 12px;
-    background-color: white;
+    background-color: #d6e2f1;
     position: relative;
 }
 .info-card-title {
