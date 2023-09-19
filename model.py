@@ -53,7 +53,7 @@ def predict_doctor_type(symptom_list):
     predicted_disease = predict_disease_from_symptom(symptom_list)
 
     # Map the predicted disease to the corresponding doctor type
-    doctor_type = disease_to_doctor.get(predicted_disease, "Unknown Doctor Type")
+    doctor_type = disease_to_doctor.get(predicted_disease, "General Practictioner")
 
     return doctor_type
 
@@ -104,7 +104,7 @@ disease_to_doctor = {
 
 
 iface = gr.Interface(
-    predict_disease_from_symptom,
+    predict_doctor_type,
     [
         gr.inputs.CheckboxGroup(['itching', 'skin_rash', 'nodal_skin_eruptions', 'continuous_sneezing', 'shivering', 'chills', 'joint_pain', 'stomach_pain', 'acidity', 'ulcers_on_tongue',
                                   'muscle_wasting', 'vomiting', 'burning_micturition', 'spotting_ urination', 'fatigue', 'weight_gain', 'anxiety', 'cold_hands_and_feets', 'mood_swings', 'weight_loss',
@@ -121,8 +121,10 @@ iface = gr.Interface(
                                   'blackheads', 'scurring', 'skin_peeling', 'silver_like_dusting', 'small_dents_in_nails', 'inflammatory_nails', 'blister', 'red_sore_around_nose', 'yellow_crust_ooze']),
     ],
     "text",
-    description="Select a symptom from the list and click submit to get predicted Disease as the Output. \
+    description="Select a symptom from the list to get your doctor type. \
     "
+    ,live=True
+    ,title="Doctor Prediction based on Symptoms"
+    ,allow_flagging="never"
 )
-#idoc = gr.Interface()
 iface.launch(share=True)
