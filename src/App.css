@@ -128,7 +128,8 @@ body {
   cursor: pointer;
   font-family: "poppins";
   font-weight: bold;
-  animation: pulse 1.5s ease-in-out infinite;
+  border-radius:10px;
+
 }
 
 @keyframes pulse {
