@@ -25,6 +25,7 @@ import AdminProfile from "./Components/AdminProfile";
 import Chatroom from "./Chatroom/Chatroom";
 import Calendly from "./Components/calendly";
 import APItesting from "./Components/apitesting";
+import MainMap from "./EmergencyMap/MainMap";
 
 function App() {
   const [userState, setUserState] = useState({});
@@ -46,6 +47,7 @@ function App() {
           <Route path="/chatroom" element={<Chatroom/>}/>
           <Route path="/bookappointment" element={<Calendly/>}/>
           <Route path="/apitesting" element={<APItesting/>}/>
+          <Route path="/emergencymap" element={<MainMap/>}/>
 
           <Route
             path="/user-login"

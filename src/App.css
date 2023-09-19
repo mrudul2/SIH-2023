@@ -457,3 +457,10 @@ body {
 .youtube-links-list li {
   margin-bottom: 0.25rem;
 }
+
+@import url("~leaflet/dist/leaflet.css");
+.leaflet-container {
+  width: 100%;
+  height: 100vh;
+}
+
