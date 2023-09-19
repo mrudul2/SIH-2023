@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router basename="/Health-Plus">
+      <Router basename="/SwasthSaathi">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
