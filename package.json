@@ -21,6 +21,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
     "react-leaflet": "^4.2.1",
+    "react-modal": "^3.16.1",
     "react-scripts": "5.0.1",
     "react-scroll-to-bottom": "^4.2.0",
     "react-select": "^5.7.4",

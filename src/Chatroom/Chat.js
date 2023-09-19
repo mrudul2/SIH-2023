@@ -1,5 +1,5 @@
-import React, { useEffect, useMemo, useState } from 'react'
-import axios from 'axios'
+import React, { useEffect, useMemo, useState } from 'react';
+import axios from 'axios';
 import io from 'socket.io-client';
 import ScrollToBottom from 'react-scroll-to-bottom';
 import {FaPaperPlane,FaSearch,FaUserFriends,FaUserCircle} from 'react-icons/fa'
