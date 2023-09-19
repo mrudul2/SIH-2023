@@ -1,8 +1,6 @@
-# Hospital Appointment Scheduling System
+# SwasthSaathi - Streamlining Medical Appointment Scheduling and Enhancing Healthcare Experience
 
-![Hospital Appointment Scheduling System](https://your-image-link-here.com)
-
-Welcome to the Hospital Appointment Scheduling System GitHub repository. This project aims to develop a digital system that streamlines the appointment scheduling process in hospitals. By automating the identification of doctor availability and appointment slot allocation, this system significantly enhances the efficiency and convenience of the scheduling process, ultimately reducing patient waiting times.
+**SwasthSaathi** is an innovative system designed to revolutionize the healthcare industry by simplifying medical appointment scheduling, ensuring efficient doctor presence tracking, and aiding in disease detection using advanced technologies. With a strong focus on improving patient experience and streamlining hospital operations, **SwasthSaathi** is the future of healthcare technology.
 
 ## Table of Contents
 - [Problem Statement](#problem-statement)
@@ -20,18 +18,66 @@ In modern hospitals, scheduling appointments efficiently is crucial for providin
 - Identify doctor availability in real-time.
 - Automate appointment slot allocation based on doctor availability and the number of waitlisted patients.
 - Reduce patient waiting times and improve the overall patient experience.
+  
+## Unveiling a Healthier Tomorrow
 
-## Features
+### **Goals**
 
-- **Real-time Doctor Presence Detection**: The system uses advanced technologies such as RFID, face detection, proximity of mobile phones, or any other relevant technology to detect the presence of doctors in the hospital.
+🕒 **Minimize Wait Times:** Our mission is to reduce the agonizing waiting times at hospitals, ensuring you get the care you need when you need it.
 
-- **Artificial Intelligence-driven Slot Allocation**: Appointment slots are allocated using AI algorithms that take into account real-time doctor availability and the number of patients on the waiting list.
+🔍 **Doctor Tracking:** We've harnessed the power of face recognition technology and real-time location tracking to empower you with the knowledge of your doctor's availability.
 
-- **Patient-Friendly Interface**: The system provides an easy-to-use interface for both hospital staff and patients to schedule appointments efficiently.
+💡 **Disease Prediction:** Our intelligent machine learning algorithms work tirelessly to predict your ailments from your symptoms, aiding doctors in making precise diagnoses.
 
-- **Automated Notifications**: Patients receive automated notifications about their appointment details, reducing the chances of missed appointments.
+📱 **User-Friendly Interface:** SwasthSaathi offers a sleek, easy-to-use interface for both patients and doctors, making healthcare accessible and enjoyable.
 
-- **Analytics and Reporting**: The system generates reports and analytics to help hospital administrators make data-driven decisions for resource allocation.
+## Crafting Excellence
+
+### **Specifications**
+
+#### 🗓 Scheduling Appointments
+
+- **Choose Your Slot:** SwasthSaathi provides you with a range of 30-minute time slots, allowing you to select the most convenient appointment time.
+- **Seamless Booking:** Our A.I. system handles appointment allocation effortlessly, ensuring you secure the slot you desire.
+- **Stay Informed:** Receive timely notifications in case of any scheduling changes due to unforeseen events.
+
+#### 👩‍⚕️ Tracking Doctors' Presence
+
+- **Face Recognition:** We employ cutting-edge Deepscan face recognition technology to verify your doctor's identity.
+- **Real-Time Location Tracking:** Our mobile app keeps tabs on your doctor's presence within the hospital, granting you confidence in booking your appointments.
+
+#### 🦠 Disease Detection
+
+- **Predictive Medicine:** SwasthSaathi uses the power of machine learning to predict your health issues based on your symptoms, enabling doctors to offer the best care.
+- **Precise Diagnosis:** Ensure you're matched with the right doctor for your condition, especially if you're a first-time visitor.
+
+#### 🌟 User-Friendly Interface
+
+- **Elegance Meets Functionality:** Our interface, crafted using React and Flutter, offers a seamless experience for patients and doctors alike.
+- **Security First:** Your data is stored with utmost security, ensuring your peace of mind.
+
+## Unlocking New Opportunities
+
+### **Business Prospects**
+
+💼 Hospitals benefit from SwasthSaathi by offsetting development costs with a nominal fee per appointment. Return on investment varies based on hospital size, patient volume, and current appointment costs.
+
+📊 The system collects essential patient demographic data, a valuable resource for marketing and enhancing patient care.
+
+🤖 Reduced manual intervention and enhanced efficiency make SwasthSaathi a cost-effective solution for hospitals.
+
+### **Future Prospects**
+
+🔮 **Consultation Duration Prediction:** Our next step is to predict consultation duration, further optimizing the scheduling process for you.
+
+📱 **Mobile App for Patients:** Expect a user-friendly mobile app, enabling you to book appointments with ease.
+
+📅 **Integration with Google Ecosystem:** Seamlessly sync your appointments with your Google Calendar for a holistic healthcare experience.
+
+## Get Started with SwasthSaathi
+
+Ready to embark on a journey towards efficient, patient-centric healthcare? Dive into our system by following the installation and usage instructions in our documentation.
+
 
 ## Technologies Used
 
@@ -52,7 +98,8 @@ To install and run the Hospital Appointment Scheduling System on your local mach
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/hospital-appointment-system.git
+   git clone https://github.com/mrudul2/SIH-2023.git
+   
 ## Usage
 
 To use the Hospital Appointment Scheduling System, follow these steps:
@@ -66,9 +113,12 @@ To use the Hospital Appointment Scheduling System, follow these steps:
 4. Receive notifications with appointment details.
 
 ## Contributors
-Abhishek Dubey
-Mrudul Joshi
-Aishwarya Ravi
+- [Mrudul Joshi - ](https://github.com/mrudul2) [EMail](mruduljoshi02@gmail.com) :e-mail:
+- [Aishwarya Ravi - ](https://github.com/AishwaryaRavi07) [EMail](aravi_b21@el.vjti.ac.in) :e-mail:
+- [Soham Sangole - ](https://github.com/Sohamlad2003) [EMail](sohamajaysangole@gmail.com) :e-mail:
+- [Abhishek Dubey - ](https://github.com/AbhiD1678) [EMail](avdubey_b21@el.vjti.ac.in) :e-mail:
+- [Nidhi Shah - ](https://github.com/AishwaryaRavi07) [EMail](aravi_b21@el.vjti.ac.in) :e-mail:
+- [Subodh Dalvi - ](https://github.com/HumourousTree) [EMail](ssdalvi_b21@ce.vjti.ac.in) :e-mail:
 
 ## Contributing
 
