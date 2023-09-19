@@ -81,7 +81,9 @@ io.on("connection",(socket)=>{
         socket.join(data.room);
         socket.username = data.username;
         userList[data.room] = userList[data.room] || [];
-        userList[data.room].push(data.username);
+        if (!userList[data.room].includes(data.username)) {
+          userList[data.room].push(data.username);
+        }
         console.log(`User with ID:${socket.id} joined room ${data}`)
 
         socket.to(data.room).emit('user_entered', data.username);
