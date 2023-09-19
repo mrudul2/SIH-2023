@@ -63,7 +63,7 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <a href='https://elaborate-syrniki-3e0585.netlify.app/'className="navbar-links">
+          <a href='https://sih-medicine-delivery.netlify.app/'className="navbar-links">
           Medicine
           </a>
         </li>
