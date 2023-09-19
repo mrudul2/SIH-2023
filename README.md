@@ -1,4 +1,4 @@
-![logo-color_2](https://github.com/mrudul2/SIH-2023/assets/104382962/014154ec-ddbe-47fc-ac99-20515bf8260f)
+![logo-no-background(1)](https://github.com/mrudul2/SIH-2023/assets/104382962/1e8a2c92-2f46-4963-938d-8f2cd9a69af6)
 # SwasthSaathi - Streamlining Medical Appointment Scheduling and Enhancing Healthcare Experience
 
 
