@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Filter.css" />
+  </head>
+  <body>
+    <body>
+      <!-- Main Section -->
+
+      <div class="container">
+        <div id="navbar">
+          <a href="/index.html">
+            <img
+              src="https://assets.pharmeasy.in/apothecary/images/logo_big.svg?dim=256x0"
+              alt=""
+          /></a>
+
+          <div id="pipe">
+            <i class="fa-light fa-pipe"></i>
+          </div>
+          <div id="navbarDelivery">
+            <p>Delivery To</p>
+            <h6>
+              Selected Pincode
+              <span><i class="fa-sharp fa-solid fa-chevron-down"></i></span>
+            </h6>
+          </div>
+
+          <div id="navbarEnd">
+            <div id="navbarDownloadApp">
+              <p><i class="fa-sharp fa-solid fa-mobile"></i> Download App</p>
+            </div>
+            <!--  -->
+
+            <div id="navbarLogin">
+              <!-- <div class="dropdown">
+                            <span>See More</span>
+                            <div class="dropdown-content">
+                                <p id="logoutNavBar" onclick="logoutFunc()">Log Out</p>
+                            </div>
+                        </div> -->
+              <p id="loginbtn">
+                <i class="fa-solid fa-user"></i> Hello, Log In
+              </p>
+            </div>
+
+            <!-- Login Page -->
+
+            <div id="loginpage">
+              <div id="logintop">
+                <button id="closebtn"><i class="fas fa-times"></i></button>
+
+                <img
+                  src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png"
+                  alt=""
+                />
+              </div>
+              <div id="loginbottom">
+                <form action="" id="loginform">
+                  <label for="">Quick Login /Register</label>
+                  <input
+                    type="text"
+                    placeholder="Enter your phone number"
+                    id="loginphone"
+                  />
+                  <p id="errormsg"></p>
+
+                  <input type="submit" value="Send OTP" id="continuepart" />
+                </form>
+                <p>
+                  By clicking continue, you agree with our
+                  <span>Privacy Policy</span>
+                </p>
+              </div>
+            </div>
+            <!--  -->
+            <div id="navbarOffer">
+              <p><i class="fa-sharp fa-solid fa-badge-percent"></i> Offer</p>
+            </div>
+            <br />
+            <div id="NavBarcart">
+              <p><i class="fa-sharp fa-solid fa-cart-shopping"></i> Cart</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div id="belowNavBarLine"> -->
+      <div id="belowNavbarData">
+        <!-- <div class="container"> -->
+        <div id="belownavbardata">
+          <!-- <span>Medicine <span></span>Healthcare <span>Lab Tests <span>Offers <span>PLUS <span>Health Blogs</span></span></span></span></span> -->
+          <div id="belowNavdataContainer" class="container">
+            <p>Medicine</p>
+            <p>Healthcare</p>
+            <p>Lab Tests</p>
+            <p>Offers</p>
+            <p>PLUS</p>
+            <p>Health Blogs</p>
+          </div>
+
+          <!-- </div> -->
+        </div>
+      </div>
+      <!-- </div> -->
+      <!-- filter by Price low to high and high to low -->
+      <div class="top">
+        <h1>Filter</h1>
+        <h2>Covid Essentials</h2>
+
+        <div class="select">
+          <label>Sort By:</label>
+          <select name="" id="sortByPrice">
+            <option value="All">Sort By Price</option>
+            <option value="lth">Price Low to High</option>
+            <option value="htl">Price High to Low</option>
+          </select>
+        </div>
+      </div>
+      <section>
+        <!-- left hand part -->
+        <div class="lhs">
+          <!-- filter Wrapper div -->
+          <div class="filterWrap">
+            <div class="mainHeading">
+              <h3>Category</h3>
+              <div class="labe">
+                <label for="">Covid Essentials</label>
+                <input type="radio" name="rad" id="all" />
+              </div>
+            </div>
+            <!-- filter By Catagory -->
+            <div class="filterSection">
+              <h3>Sub Category</h3>
+              <div class="labe">
+                <label for="">Covid test kit</label>
+                <input type="radio" name="rad" id="covidKit" />
+              </div>
+              <div class="labe">
+                <label for="">Disinfectants</label>
+                <!-- <button type="radio"></button> -->
+                <input type="radio" name="rad" id="filterByDisinfectants" />
+              </div>
+              <div class="labe">
+                <label for="">Home Hygiene Essentials</label>
+                <input type="radio" name="rad" id="hygiene" />
+              </div>
+              <div class="labe">
+                <label for="">Masks</label>
+                <input type="radio" name="rad" id="mask" />
+              </div>
+              <div class="labe">
+                <label for="">Hand Sanitizers</label>
+                <input type="radio" name="rad" id="handSenitizer" />
+              </div>
+            </div>
+            <!-- filter By Brand -->
+            <div class="filterSection">
+              <h3>Brand</h3>
+
+              <div class="labe">
+                <label for="">Coviself</label>
+                <input type="radio" name="rad" id="coviself" />
+              </div>
+              <div class="labe">
+                <label for="">Meril</label>
+                <input type="radio" name="rad" id="meril" />
+              </div>
+              <div class="labe">
+                <label for="">Panbio</label>
+                <input type="radio" name="rad" id="panbio" />
+              </div>
+              <div class="labe">
+                <label for="">Covid test</label>
+                <input type="radio" name="rad" id="covid" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Right hand side div = product div -->
+
+        <div class="rhs"></div>
+      </section>
+
+      <!-- Footer -->
+
+      <div id="FooterPicSection">
+        <hr id="hrfooter1" />
+        <div class="container">
+          <img id="Footerimg1" src="/Product page/img/Footer 1.png" alt="" />
+        </div>
+        <hr id="hrfooter1" />
+        <div class="container">
+          <img id="Footerimg2" src="/Product page/img/Footer 2.png" alt="" />
+        </div>
+      </div>
+
+      <!-- Footer Linkes -->
+
+      <div id="Footer">
+        <div class="container">
+          <div id="FooterLinks">
+            <div id="FooterDiv1">
+              <p>Company</p>
+              <ul>
+                About us
+              </ul>
+              <ul>
+                Careers
+              </ul>
+              <ul>
+                Blog
+              </ul>
+              <ul>
+                Partner with PharmEasy
+              </ul>
+              <ul>
+                Partner with PharmEasy
+              </ul>
+
+              <!-- <br> -->
+              <p>Our Services</p>
+              <ul>
+                Order Medicine
+              </ul>
+              <ul>
+                Healthcare Products
+              </ul>
+              <ul>
+                Lab Tests
+              </ul>
+            </div>
+
+            <div id="FooterDiv2">
+              <p>Features Categories</p>
+              <ul>
+                Covid Essentials
+              </ul>
+              <ul>
+                Personal Care
+              </ul>
+              <ul>
+                Health Food and Drinks
+              </ul>
+              <ul>
+                Beauty
+              </ul>
+              <ul>
+                Skin Care
+              </ul>
+              <ul>
+                Home Care
+              </ul>
+              <ul>
+                Ayurvedic Care
+              </ul>
+              <ul>
+                Sexual Wellness
+              </ul>
+              <ul>
+                Sexual Wellness
+              </ul>
+              <ul>
+                Fitness Supplements
+              </ul>
+              <ul>
+                Mother and Baby Care
+              </ul>
+              <ul>
+                Healthcare Devices
+              </ul>
+              <ul>
+                Health Condition
+              </ul>
+              <ul>
+                Diabetic Care
+              </ul>
+              <ul>
+                Elderly Care
+              </ul>
+              <ul>
+                Accessories And Wearables
+              </ul>
+              <ul>
+                Top Products
+              </ul>
+            </div>
+
+            <div id="FooterDiv3">
+              <p>Need Help</p>
+              <ul>
+                Browse All Molecules
+              </ul>
+              <ul>
+                Browse All Cities
+              </ul>
+              <ul>
+                Browse All Areas
+              </ul>
+              <ul>
+                Browse All Stores
+              </ul>
+
+              <!-- <br> -->
+              <p>FAQs</p>
+              <ul>
+                Policy Info
+              </ul>
+              <ul>
+                Editorial Policy
+              </ul>
+              <ul>
+                Privacy Policy
+              </ul>
+              <ul>
+                Vulnerability Disclosure Policy
+              </ul>
+              <ul>
+                Terms and Conditions
+              </ul>
+              <ul>
+                Customer Support Policy
+              </ul>
+              <ul>
+                Return Policy
+              </ul>
+            </div>
+
+            <div id="FooterDiv4">
+              <p>Follow us on</p>
+              <div id="Footer4SocialMediaIcon">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+            </div>
+          </div>
+
+          <div id="FooterPayment">
+            <p id="FooterPaymentPatnerP">Our Payment Partners</p>
+            <div id="paymentimg">
+              <img
+                src="https://assets.pharmeasy.in/apothecary/images/gpay.png?dim=1440x0"
+                alt=""
+              />
+              <img
+                src="https://assets.pharmeasy.in/apothecary/images/paytm.png?dim=1440x0"
+                alt=""
+              />
+              <img
+                src="https://assets.pharmeasy.in/apothecary/images/phonepe.png?dim=1440x0"
+                alt=""
+              />
+              <img
+                src="https://assets.pharmeasy.in/apothecary/images/amazon.png?dim=1440x0"
+                alt=""
+              />
+              <img
+                src="https://assets.pharmeasy.in/apothecary/images/mobikwik.png?dim=1440x0"
+                alt=""
+              />
+              <img
+                src="https://assets.pharmeasy.in/apothecary/images/olamoney.png?dim=1440x0"
+                alt=""
+              />
+              <img
+                src="https://assets.pharmeasy.in/apothecary/images/maestro.png?dim=1440x0"
+                alt=""
+              />
+              <img
+                src="https://assets.pharmeasy.in/apothecary/images/mastercard.png?dim=1440x0"
+                alt=""
+              />
+              <img
+                src="https://assets.pharmeasy.in/apothecary/images/visa.png?dim=1440x0"
+                alt=""
+              />
+              <img
+                src="https://assets.pharmeasy.in/apothecary/images/rupay.png?dim=1440x0"
+                alt=""
+              />
+              <p>© 2022 PharmEasy. All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="Fitlter.js"></script>
+
+      <!-- <script src="/Filter_Page/Fitlter.js"></script> -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"
+      ></script>
+    </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,924 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+
+
+/* NavBar */
+
+#navbar{
+  
+    display: flex;
+    width: 80%;
+    height: 7%;
+    /* border: 2px solid  red; */
+    justify-content: flex-start;
+    margin: auto;
+    background-color: white;
+    
+    /* box-shadow: rgb(0 0 0 / 4%) 0px 6px 8px; */
+    transition: all 0.3s ease-in 0s;
+    z-index: 2;
+    /* height: var(--sizes-8); */
+    box-sizing: border-box;
+    /* margin-top: -15px; */
+    position: fixed;
+   
+}
+#navbar img{
+    cursor: pointer;
+    margin-top: 10px;
+}
+#navbarDelivery {
+    margin-left: 20px;
+    height: 30px;
+    /* border: 2px solid black; */
+    justify-items: auto;
+    
+}
+#pipe{
+    border-radius: 100px;
+    height: 80%;
+    margin-top: 10px;
+    margin-left: 15px;
+    border: 2px solid rgb(141, 138, 138);
+}
+#navbarDelivery p{
+   font-size: 11px;
+
+   
+}
+#navbarDelivery h6{
+    margin-top: -10px;
+    font-size: 15px;
+   
+}
+#navbarEnd{
+
+    display: flex;
+    font-size: small;
+    background-color: white;
+    width: 400px;
+    /* color: 2px solid black; */
+    
+    margin-left: 500px;
+    margin-top: 10px;
+    /* border: 2px solid black; */
+    
+    justify-content: space-around;
+
+   
+
+}
+#navbarDownloadApp{
+    background-color: #DCE4F1;
+    border-radius: 5px;
+    height: 30px;
+    width:120px;
+    text-align: center;
+    cursor: pointer;
+ 
+
+}
+ #navbarLogin{
+    cursor: pointer;
+ }
+ #NavBarcart{
+    cursor: pointer;
+   }
+#navbarOffer{
+    cursor: pointer;
+}
+
+
+#belowNavbar{
+    display: flex;
+    /* margin: auto; */
+    /* width: 100%; */
+    /* border: 2px solid black; */
+   
+    margin-top: 10px;
+    
+}
+
+
+/* login Page */
+
+#loginpage {
+    height: 800px;
+    width: 450px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    display: none;
+    
+  }
+  #logintop {
+    background-color: #10847e;
+    /* border: 2px solid red; */
+    background-image: url("https://assets.pharmeasy.in/web-assets/dist/1fe1322a.svg?dim=256x0");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+    padding: 20px;
+    display: flex;
+  }
+  #logintop button {
+    position: absolute;
+    left: -40px;
+    background-color: #10847e;
+    width: 50px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    border: none;
+    opacity: 1 !important;
+  }
+  
+  #logintop > img {
+    width: 50%;
+  }
+  #loginbottom {
+    padding: 10px;
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+  }
+  #loginbottom label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  #loginbottom input {
+    display: block;
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+  }
+  #loginbottom p {
+    font-size: 15px;
+    text-align: justify;
+  }
+  #continuepart {
+    background-color: #10847e;
+    color: white;
+    font-weight: 500;
+  }
+
+
+  /* DropDown LogOut on nvaBar */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+/* Below Navbar line */
+
+#belowNavbarData{
+    display: flex;
+ 
+    height: 80px;
+   
+}
+#belownavbardata{
+
+    background-color: #EEF4FF;
+    margin-top: 60px;
+    width: 100%;
+    margin: auto;
+    justify-content: end;
+    margin-top: 64px;
+    justify-content: space-evenly;
+    position: fixed;
+
+    
+} 
+#belowNavdataContainer {
+    display: flex;
+    justify-content: center;
+  
+}
+#belownavbardata p{
+
+    margin: 10px;
+    color: #737981;
+    font-size: 13px;
+ 
+   
+}
+
+
+
+/* Prduct Section */
+#productSection {
+    margin-top: 15px;
+    display: flex;
+
+    width: 100%;
+    height: 400px;
+}
+
+#ProdDetails {
+    margin-top: 10%;
+    
+    display: flex;
+}
+
+#largeProdImg {
+    /* border: 2px solid red; */
+    /* border: 1px solid #E6EBF4; */
+    border-radius: 15px;
+    width: 250px;
+    height: 300px;
+    margin-bottom: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+#largeProdImg img {
+    width: 100%;
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+    padding: 20px;
+    max-height: fit-content;
+
+
+
+}
+
+
+
+#smallProdImagediv {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 50px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+#smallProdImage {
+    width: 100%;
+    margin: auto;
+    /* margin-left: 8px; */
+    padding: 7px;
+
+}
+
+#prodDetailsSection {
+    margin: 20px;
+    /* border: 2px solid black; */
+    width: 60%;
+}
+
+#prodrating {
+    color: #FFD344;
+    /* border: 2px solid red; */
+
+}
+
+#prodrating span {
+    color: rgb(180, 180, 180);
+}
+
+#Prodprice {
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 20px;
+}
+
+#mrp {
+    font-size: small;
+    text-decoration: line-through;
+    color: #8897A2;
+}
+
+#inclusive {
+    font-size: smaller;
+    margin-top: -10px;
+}
+
+#deliveryDate {
+    font-size: smaller;
+    margin-top: -10px;
+}
+
+#off {
+    text-decoration: none;
+    background-image: url("https://assets.pharmeasy.in/web-assets/_next/icons/pdp-discount.png");
+    color: white;
+    font-size: small;
+}
+
+#addqtybtn {
+    background-color: #10847E;
+}
+
+#AddQty {
+    width: 20px;
+   
+}
+
+#addqtybtn:hover{
+    background: #10847E;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#AddQty:hover {
+
+    background: #3d5554;
+}
+
+/* hr line */
+
+#hrline {
+    margin: auto;
+    margin-top: 200px;
+    width: 500px;
+
+}
+
+
+
+
+/* Addd to Cart Button  */
+
+#Addtocart {
+    background: #10847E;
+    height: 45px;
+    font-weight: 700;
+    width: 300px;
+    /* border: 2px solid red; */
+    margin-top: -50px;
+    position: sticky;
+}
+
+#Addtocart:hover {
+    background: #427270;
+}
+
+#AddQty {
+    width: 20px;
+}
+
+/* View Cart */
+
+
+#viewCart {
+    margin-left: 40px;
+    margin-top: 150px;
+}
+
+#ViewCartbtn {
+    background: #10847E;
+    height: 45px;
+    font-weight: 700;
+    width: 300px;
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+#ViewCartbtn:hover {
+    background: #427270;
+}
+
+#viewCart img {
+    margin-top: 40px;
+    width: 80%;
+}
+
+/* Deal of the day */
+
+#DealsofTheDayH4 {
+    font-weight: bold;
+    margin-top: 250px;
+}
+
+#DealsofTheDay {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    /* border: 2px solid red; */
+}
+
+#DealsofTheDay+div {
+    /* border: 2px solid red; */
+
+    border: 1px solid #E6EBF4;
+}
+
+#DealsofTheDay>div {
+    width: 178px;
+    height: 190px;
+    border-radius: 8px;
+    margin-top: 5%;
+    border: 1px solid #E6EBF4;
+    /* border: 2px solid red; */
+}
+
+#DealsofTheDay>div:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+
+
+}
+
+#DealsofTheDayImg {
+    /* border: 2px solid red; */
+    /* width: 100%; */
+    /* height: 190px; */
+
+}
+
+#DealsofTheDayImg img {
+    width: 80%;
+    /* width: 50%; */
+    height: 150px;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 25px;
+
+    /* margin-left:45px; */
+    /* margin-top: 10px; */
+    /* object-fit: cover; */
+    /* border: 2px solid red; */
+
+
+}
+
+#DealsofTheDayProdName {
+    padding-top: 5em;
+    font-size: 14px;
+    color: #30363C;
+    font-weight: lighter;
+
+}
+
+#DealsofTheDayMRP {
+    color: #CAD1D6;
+    font-size: 13px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+#DealsofTheDayMRP span {
+    text-decoration: line-through;
+
+}
+
+#DealsofTheDayPrice {
+    font-weight: lighter;
+    margin-top: -0.5em;
+}
+
+#DealsofTheDayPrice span {
+
+    font-size: 13px;
+    margin-left: 2px;
+    color: #F47D7F;
+    font-weight: bold;
+}
+
+/*  hr line spotlgiht */
+
+#hrlineSpotLight {
+    margin-top: 200px;
+    
+}
+
+/* In the SpotLight */
+
+
+
+#InTheSpotLightContainer {
+    margin-top: 12em;
+    border-top: none;
+    background: url(https://assets.pharmeasy.in/apothecary/images/spotlightBig.svg) no-repeat, linear-gradient(rgb(255, 248, 227) 0%, rgba(255, 255, 255, 0) 100%);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+
+}
+
+#InTheSpotLightH4 {
+    font-weight: bold;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+#InTheSpotLight {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    /* border: 2px solid red; */
+}
+
+#InTheSpotLight+div {
+    /* border: 2px solid red; */
+
+    /* border: 1px solid #E6EBF4; */
+
+}
+
+#InTheSpotLight>div {
+    width: 80%;
+    height: 180px;
+    border-radius: 8px;
+    /* margin-top: 5%; */
+    margin: 3%;
+    margin: auto;
+    /* border: 1px solid #E6EBF4; */
+
+}
+
+#InTheSpotLight>div:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+
+}
+
+#InTheSpotLightImg img {
+    width: 100%;
+    height: 175px;
+
+}
+
+#InTheSpotLightProName {
+    padding-top: 5em;
+    font-size: 14px;
+    color: #30363C;
+    font-weight: lighter;
+    margin-top: -50px;
+
+}
+
+#InTheSpotLightMRP {
+    color: #CAD1D6;
+    font-size: 13px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+#InTheSpotLightMRP span {
+    text-decoration: line-through;
+
+}
+
+#InTheSpotLightPrice {
+    font-weight: lighter;
+    margin-top: -0.5em;
+}
+
+#InTheSpotLightPrice span {
+
+    font-size: 13px;
+    margin-left: 2px;
+    color: #F47D7F;
+    font-weight: bold;
+}
+
+/* Product Description */
+
+#productDetailsDescription{
+    margin-top: 5%;
+}
+
+/* Health Articles */
+#HealthArticleH4 {
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+#HealthArticleP {
+    color: #959A9E;
+}
+
+#HealthArticles {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+
+
+}
+
+#HealthArticles img {
+    width: 100%;
+    height: 60%;
+    border-radius: 5px;
+
+
+}
+
+#HealthArticlesDiv {
+    border: 1px solid #E6EBF4;
+    border-radius: 5px;
+    width: 220px;
+    height: 224px;
+
+}
+
+#HealthArticlesDiv p {
+    text-align: start;
+    justify-self: flex-end;
+    font-weight: lighter;
+    height: 40%;
+    margin: auto;
+    font-size: medium;
+    padding: 7%;
+    /* border: 2px solid black; */
+
+}
+
+#HealthArticlesDiv:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/*  */
+
+#WhyChooseUse img {
+    width: 100%;
+    margin-top: 5%;
+}
+
+/* What Our Customers have to say  */
+
+#WhatOurCustHaveToSayH4 {
+    font-weight: bold;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+#HwhatOurCustomerHaveToDayContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+
+
+}
+
+#HwhatOurCustomerHaveToDayContainer h6 {
+    margin-left: 4%;
+    font-weight: bold;
+}
+
+#HwhatOurCustomerHaveToDayContainer p {
+    font-weight: lighter;
+    font-size: small;
+    margin-left: 4%;
+}
+
+/* Footer image section */
+
+#Footerimg1 {
+    margin: auto;
+    width: 100%;
+    /* margin-top: -10%; */
+}
+
+#Footerimg2 {
+    margin: auto;
+    width: 100%;
+    /* margin-top: -10%; */
+    /* margin-bottom: -10%; */
+}
+
+#hrfooter1 {
+    opacity: 10%;
+}
+
+/* Footer Linkes */
+#Footer {
+    background-color: #EEF4FF;
+}
+
+#FooterLinks {
+
+    /* margin-top: 5%; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* border: 2px solid red; */
+    /* margin-left: -200px; */
+
+
+}
+
+
+
+#FooterLinks ul {
+    font-weight: lighter;
+    /* font-size: small; */
+    color: #4f585e;
+
+}
+
+#FooterLinks p {
+    font-weight: bolder;
+    margin-left: 10%;
+    color: #4F585E;
+    margin-top: 10%;
+
+}
+
+#Footer4SocialMediaIcon i {
+
+    padding: 20px;
+}
+
+#FooterPayment {
+    background-color: #EEF4FF;
+}
+
+#FooterPaymentPatnerP {
+    font-weight: bold;
+
+    /* margin: auto; */
+    /* margin-left: 2%; */
+}
+
+#paymentimg {
+    display: flex;
+
+
+}
+
+#paymentimg img {
+
+    width: 5%;
+    height: 3%;
+    margin: 20px;
+
+}
+
+/* ItemAddedToCartDiv */
+
+#ItemAddedToCartDiv{
+    /* margin-top: 50px; */
+    /* border: 2px solid red; */
+    border: 3px solid #E6EBF4;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    height: 35%;
+    font-style: inherit;
+    /* border: 2px solid red; */
+   
+    
+    
+}
+#addedtoCartSuccess{
+ color: #30363C;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+
+   
+}
+#PleaseAddItem{
+  color: #10847E;
+  margin-top: -5px;
+}
+
+#ItemAddedToCartDiv:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    cursor: pointer;
+    border: #9a9c9c;
+}
+#viewCart{
+    /* border: 2px solid red; */
+}
+
+#viewCart img{
+    /* border:  2px solid black; */
+    width: 100%;
+    margin-left: -25px;
+    margin-top: 1%;
+}
+
+/* Toast Message */
+
+#toast {
+    visibility: hidden;
+    max-width: 50px;
+    height: 50px;
+    /*margin-left: -125px;*/
+    margin: auto;
+    /* background-color: #333; */
+    background-color: #10847E;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+
+    position: fixed;
+    z-index: 1;
+    left: 0;right:0;
+    bottom: 30px;
+    font-size: 17px;
+    white-space: nowrap;
+}
+#toast #img{
+	width: 50px;
+	height: 50px;
+    
+    float: left;
+    
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
+    box-sizing: border-box;
+
+    
+    background-color: #111;
+    color: #fff;
+}
+#toast #desc{
+
+    
+    color: #fff;
+   
+    padding: 16px;
+    
+    overflow: hidden;
+	white-space: nowrap;
+}
+
+#toast.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, expand 0.5s 0.5s,stay 3s 1s, shrink 0.5s 2s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, expand 0.5s 0.5s,stay 3s 1s, shrink 0.5s 4s, fadeout 0.5s 4.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes expand {
+    from {min-width: 50px} 
+    to {min-width: 350px}
+}
+
+@keyframes expand {
+    from {min-width: 50px}
+    to {min-width: 350px}
+}
+@-webkit-keyframes stay {
+    from {min-width: 350px} 
+    to {min-width: 350px}
+}
+
+@keyframes stay {
+    from {min-width: 350px}
+    to {min-width: 350px}
+}
+@-webkit-keyframes shrink {
+    from {min-width: 350px;} 
+    to {min-width: 50px;}
+}
+
+@keyframes shrink {
+    from {min-width: 350px;} 
+    to {min-width: 50px;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 60px; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 60px; opacity: 0;}
+}

@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+#PaymentPageNavbar{
+    width: 100%;
+    height: 88px;
+    background-color: #10847E;
+    /* border: 2px solid red; */
+    display: flex;
+}
+.container-lg{
+    display: flex;
+    
+    width: 100%;
+
+}
+.container-lg img{
+    width: 180px;
+    height: 60px;
+    /* border: 2px solid red; */
+    align-self: center;
+    
+}
+.container-lg  p{
+    /* border: 2px solid red; */
+    width: 100%;
+    align-self: flex-end;
+    text-align: end;
+    color: white;
+    font-size: larger;
+}
+/* payemnt Mehtod */
+
+
+
+.container{
+
+    display: flex;
+    
+    
+}
+
+
+.container p, h3, h2, h4, h5, h1{
+    color: #4F585E;
+}
+h5{
+    font-weight: bolder;
+}
+
+
+#hrline{
+    width: 50%;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 0%;
+
+}
+
+#Offerh3{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-weight: bolder;
+}
+
+
+#Wallet{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 70%;
+    
+    
+    
+}
+
+#paymentMethod img{
+    width: 60%;
+}
+#imgPaytm{
+    width: 20%;
+}
+#paymentMethod>div{
+    margin: 5px;
+
+}
+#paymentMethod p{
+    font-size: small;
+    color: #9797A2;
+    width: 90%;
+}
+
+#radioNoLabel1{
+    /* color: #10847E; */
+    width: 22px;
+    height: 22px;
+    background-color: #10847E;
+    cursor: inherit;
+    margin: 0;
+    opacity: 1;
+    padding: 0;
+    position: absolute; 
+    cursor: pointer;
+    
+}
+
+/* Other Options */
+
+#OtherOptions{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-weight: bolder;
+}
+#Details img{
+    width: 60%;
+    margin-left: 5px;
+}
+
+#cod{
+    width: 120px;
+    height:50px;
+    margin: 15px;
+}
+#netbankingP{
+    width: 150px;
+    height:50px;
+    margin-right: 100px;
+}
+#codP{
+    width: 150px;
+    height:50px;
+    margin-right: 100px;
+}
+
+/* Price BreakDown */
+
+
+
+#priceBreakdown{
+    display: flex;
+   position: relative;
+   width: 50%;
+
+    flex-direction: row-reverse;
+
+}
+
+/* Price BreakDonw Section */
+
+#priceBreakdown{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 40%;
+    margin-top: 70px;
+    margin-left: -300px;
+    
+    /* border: 2px solid red; */
+}
+
+#priceBreakdown {
+  
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 300px;
+    
+    
+ 
+}
+#cartValue{
+    /* border: 2px solid red; */
+   
+    height: 300px;
+   position: sticky;
+   margin-top: 50px;
+
+}
+#cartValue,#PriceBreakoutSection p{
+   font-size: large;
+}
+#PriceBreakoutSection{
+  
+    height: 300px;
+    position: sticky;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+}
+#PriceBreakdownP{
+    font-weight: bold;
+    width: 30%;
+    height: 20px;
+    margin-top: 40px;
+  
+}
+#PriceBreakoutSection span{
+text-decoration: line-through;
+font-weight: lighter;
+font-size: medium;
+}
+#hrlinePriceBreakdown{
+    width: 100%;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 0%;
+
+}
+
+/* Order Button  */
+
+#OrderBtn{
+background: #10847E;
+height: 45px;
+font-weight: 700;
+width: 300px;
+
+/* border: 2px solid red; */
+margin-top: 20px;
+}
+
+
+#OrderBtn:hover{
+    background: #427270;
+    cursor: pointer;
+}
+
+/* Credit Debit Section */
+
+#flex{
+    display: flex;
+}
+.form-group{
+    margin: 5px;
+}
+
+#CCbtn{
+    width: 50%;
+    margin: auto;
+    margin-left: 80px;
+    background: #10847E;
+   /* border: 2px solid red; */
+}
+
+#CCinput{
+    display: none;
+}
+
+/* Coupon Section */
+#CouponSection{
+    height:130px;
+    margin-top: -50px;
+    border: 1px dotted black;
+    border-radius: 5px;
+    
+   background-image: url("data:image/jpeg;base64,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");
+  
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+#couponInput{
+    display: flex;
+    margin: 20px;
+    width: 250px;
+    
+}
+
+
+#Couponh5 h5{
+    text-align: center;
+}
+
+#ApplyBtn{
+    margin-top: 5px;
+}
+
+#couponInput div{
+    /* margin: 30px; */
+    margin-left: 20px;
+}
+
+.form-group input{
+    /* width: 200px; */
+}
+
+/* Toast Message */
+
+#toast {
+    visibility: hidden;
+    max-width: 50px;
+    height: 50px;
+    /*margin-left: -125px;*/
+    margin: auto;
+    /* background-color: #333; */
+    background-color: #10847E;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+
+    position: fixed;
+    z-index: 1;
+    left: 0;right:0;
+    bottom: 30px;
+    font-size: 17px;
+    white-space: nowrap;
+}
+#toast #img{
+	width: 50px;
+	height: 50px;
+    
+    float: left;
+    
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
+    box-sizing: border-box;
+
+    
+    background-color: #111;
+    color: #fff;
+}
+#toast #desc{
+
+    
+    color: #fff;
+   
+    padding: 16px;
+    
+    overflow: hidden;
+	white-space: nowrap;
+}
+
+#toast.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, expand 0.5s 0.5s,stay 3s 1s, shrink 0.5s 2s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, expand 0.5s 0.5s,stay 3s 1s, shrink 0.5s 4s, fadeout 0.5s 4.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes expand {
+    from {min-width: 50px} 
+    to {min-width: 350px}
+}
+
+@keyframes expand {
+    from {min-width: 50px}
+    to {min-width: 350px}
+}
+@-webkit-keyframes stay {
+    from {min-width: 350px} 
+    to {min-width: 350px}
+}
+
+@keyframes stay {
+    from {min-width: 350px}
+    to {min-width: 350px}
+}
+@-webkit-keyframes shrink {
+    from {min-width: 350px;} 
+    to {min-width: 50px;}
+}
+
+@keyframes shrink {
+    from {min-width: 350px;} 
+    to {min-width: 50px;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 60px; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 60px; opacity: 0;}
+}

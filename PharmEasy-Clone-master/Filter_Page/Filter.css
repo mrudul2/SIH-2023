@@ -1,0 +1,455 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* NavBar */
+
+#navbar {
+  display: flex;
+  width: 80%;
+  height: 7%;
+  /* border: 2px solid  red; */
+  justify-content: flex-start;
+  margin: auto;
+  background-color: white;
+
+  /* box-shadow: rgb(0 0 0 / 4%) 0px 6px 8px; */
+  transition: all 0.3s ease-in 0s;
+  z-index: 2;
+  /* height: var(--sizes-8); */
+  box-sizing: border-box;
+  margin-top: 18px;
+  position: fixed;
+}
+#navbar img {
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100px;
+  height: 50px;
+}
+#navbarDelivery {
+  margin-left: 20px;
+  height: 30px;
+  /* border: 2px solid black; */
+  justify-items: auto;
+}
+#pipe {
+  border-radius: 100px;
+  height: 80%;
+  margin-top: 10px;
+  margin-left: 15px;
+  border: 2px solid rgb(141, 138, 138);
+}
+#navbarDelivery p {
+  font-size: 11px;
+}
+#navbarDelivery h6 {
+  margin-top: -10px;
+  font-size: 15px;
+}
+#navbarEnd {
+  display: flex;
+  font-size: small;
+  background-color: white;
+  width: 400px;
+  /* color: 2px solid black; */
+
+  margin-left: 500px;
+  margin-top: 10px;
+  /* border: 2px solid black; */
+
+  justify-content: space-around;
+}
+#navbarDownloadApp {
+  background-color: #dce4f1;
+  border-radius: 5px;
+  height: 30px;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+#navbarLogin {
+  cursor: pointer;
+}
+#NavBarcart {
+  cursor: pointer;
+}
+#navbarOffer {
+  cursor: pointer;
+}
+
+#belowNavbar {
+  display: flex;
+  /* margin: auto; */
+  /* width: 100%; */
+  /* border: 2px solid black; */
+
+  margin-top: 10px;
+}
+
+/* login Page */
+
+#loginpage {
+  height: 800px;
+  width: 450px;
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  display: none;
+}
+#logintop {
+  background-color: #10847e;
+  /* border: 2px solid red; */
+  background-image: url("https://assets.pharmeasy.in/web-assets/dist/1fe1322a.svg?dim=256x0");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: contain;
+  padding: 20px;
+  display: flex;
+}
+#logintop button {
+  position: absolute;
+  left: -40px;
+  background-color: #10847e;
+  width: 50px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  border: none;
+  opacity: 1 !important;
+}
+
+#logintop > img {
+  width: 50%;
+}
+#loginbottom {
+  padding: 10px;
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+}
+#loginbottom label {
+  display: block;
+  margin-bottom: 10px;
+}
+#loginbottom input {
+  display: block;
+  margin-bottom: 10px;
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+#loginbottom p {
+  font-size: 15px;
+  text-align: justify;
+}
+#continuepart {
+  background-color: #10847e;
+  color: white;
+  font-weight: 500;
+}
+
+/* DropDown LogOut on nvaBar */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Below Navbar line */
+
+#belowNavbarData {
+  display: flex;
+
+  height: 80px;
+}
+#belownavbardata {
+  background-color: #eef4ff;
+  margin-top: 60px;
+  width: 100%;
+  margin: auto;
+  justify-content: end;
+  margin-top: 50px;
+  justify-content: space-evenly;
+  position: fixed;
+  margin-top: 90px;
+}
+#belowNavdataContainer {
+  display: flex;
+  justify-content: center;
+}
+#belownavbardata p {
+  margin: 10px;
+  color: #737981;
+  font-size: 13px;
+}
+
+section {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin: auto;
+  gap: 15px;
+}
+.lhs {
+  width: 268px;
+  /* height: 1500px;
+  margin: auto;
+  position: relative;
+  top: 50px; */
+}
+.rhs {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mainHeading {
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #dfe3e6;
+}
+.filterSection {
+  height: 275px;
+  /* padding-bottom: 10px; */
+  margin-bottom: 20px;
+  border-bottom: 1px solid #dfe3e6;
+}
+.labe {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  font-size: 15px;
+  font-family: normal;
+  color: grey;
+}
+.labe [type="radio"] {
+  height: 18px;
+  width: 18px;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  width: 88%;
+  margin: auto;
+  position: relative;
+  margin-top: 81px;
+  right: 70px;
+}
+#product {
+  width: 185px;
+  height: 320px;
+  margin: 15px 1%;
+  padding: 14px;
+  margin: auto;
+  margin-top: 25px;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+  border: 1px solid #e6ebf4;
+
+  border-radius: 8px;
+  cursor: pointer;
+}
+#product:hover {
+  border: 1px solid green;
+  /* transition: 0.25s ease; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#head {
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  width: 100%;
+  height: 160px;
+}
+#minidiv {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: -14px; */
+  width: 126px;
+}
+select {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+#sort {
+  margin: 20px;
+}
+
+/* .select {
+  margin: 18px;
+} */
+h1 {
+  font-size: 25px;
+  /* margin-left: -20px; */
+}
+#price {
+  margin-top: -4px;
+}
+h3 {
+  font-size: 16px;
+}
+#heading {
+  font-size: 14px;
+  color: rgb(59, 59, 59);
+  margin-top: 12px;
+}
+#serch {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid grey;
+}
+option {
+  outline: 1px dotted red;
+}
+#strikprice {
+  text-decoration: line-through;
+}
+.nav {
+  height: 80px;
+  border: 2px solid red;
+}
+.footer {
+  border: 5px solid teal;
+  height: 500px;
+  width: 100%;
+}
+/* .col {
+  height: 80px;
+  border: 2px solid red;
+} */
+
+/* Footer image section */
+
+#Footerimg1 {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  /* margin-top: -10%; */
+}
+
+#Footerimg2 {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  /* margin-top: -10%; */
+  /* margin-bottom: -10%; */
+}
+
+#hrfooter1 {
+  opacity: 10%;
+}
+
+/* Footer Linkes */
+#Footer {
+  background-color: #eef4ff;
+}
+
+#FooterLinks {
+  /* margin-top: 5%; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* border: 2px solid red; */
+  /* margin-left: -200px; */
+}
+
+#FooterLinks ul {
+  font-weight: lighter;
+  /* font-size: small; */
+  color: #4f585e;
+}
+
+#FooterLinks p {
+  font-weight: bolder;
+  margin-left: 10%;
+  color: #4f585e;
+  margin-top: 10%;
+}
+
+#Footer4SocialMediaIcon i {
+  padding: 20px;
+}
+
+#FooterPayment {
+  background-color: #eef4ff;
+}
+
+#FooterPaymentPatnerP {
+  font-weight: bold;
+
+  /* margin: auto; */
+  /* margin-left: 2%; */
+}
+
+#paymentimg {
+  display: flex;
+}
+
+#paymentimg img {
+  width: 5%;
+  height: 3%;
+  margin: 20px;
+}
+/* For 1024 Resolution */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #navbar {
+    width: 97%;
+  }
+
+  #navbarEnd {
+    margin-left: 135px;
+  }
+  #belownavbardata {
+    width: 100%;
+  }
+  .top {
+    right: 100px;
+  }
+  .lhs {
+    width: 174px;
+  }
+  .rhs {
+    width: 59%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 20px; */
+  }
+  /* select {
+    padding: 6px;
+    margin-right: 59px;
+  } */
+  section {
+    width: 89%;
+
+    gap: 47px;
+  }
+  h2 {
+    display: none;
+  }
+  #product {
+    width: 234px;
+  }
+}

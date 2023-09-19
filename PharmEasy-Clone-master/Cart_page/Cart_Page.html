@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cart Page | PharmEasy | India’s Biggest Online Pharmeasy</title>
+    <link rel="icon" type="image/x-icon" href="https://assets.pharmeasy.in/apothecary/images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Cart_page/Cart_Page.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="navbar">
+            <a href="/index.html"> <img src="https://assets.pharmeasy.in/apothecary/images/logo_big.svg?dim=256x0"
+                    alt=""></a>
+
+            <div id="pipe">
+                <i class="fa-light fa-pipe"></i>
+
+            </div>
+            <div id="navbarDelivery">
+                <p>Delivery To</p>
+                <h6>Selected Pincode <span><i class="fa-sharp fa-solid fa-chevron-down"></i></span> </h6>
+            </div>
+
+
+            <div id="navbarEnd">
+                <div id="navbarDownloadApp">
+                    <p> <i class="fa-sharp fa-solid fa-mobile"></i> Download App</p>
+                </div>
+                <!--  -->
+
+
+
+                <div id="navbarLogin">
+                    <!-- <div class="dropdown">
+                        <span>See More</span>
+                        <div class="dropdown-content">
+                            <p id="logoutNavBar" onclick="logoutFunc()">Log Out</p>
+                        </div>
+                    </div> -->
+                    <p id="loginbtn"> <i class="fa-solid fa-user"></i> Hello, Log In</p>
+                </div>
+
+
+                <!-- Login Page -->
+
+                <div id="loginpage">
+                    <div id="logintop">
+                        <button id="closebtn"><i class="fas fa-times"></i></button>
+
+                        <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt="">
+                    </div>
+                    <div id="loginbottom">
+                        <form action="" id="loginform">
+                            <label for="">Quick Login /Register</label>
+                            <input type="text" placeholder="Enter your phone number" id="loginphone">
+                            <p id='errormsg'></p>
+
+                            <input type="submit" value="Send OTP" id="continuepart">
+
+                        </form>
+                        <p>By clicking continue, you agree with our <span>Privacy Policy</span></p>
+                    </div>
+                </div>
+                <!--  -->
+                <div id="navbarOffer">
+                    <p> <i class="fa-sharp fa-solid fa-badge-percent"></i> Offer</p>
+                </div>
+                <br>
+                <div id="NavBarcart">
+
+
+                    <p> <i class="fa-sharp fa-solid fa-cart-shopping"></i> Cart</p>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- <div id="belowNavBarLine"> -->
+    <div id="belowNavbarData">
+        <!-- <div class="container"> -->
+        <div id="belownavbardata">
+            <!-- <span>Medicine <span></span>Healthcare <span>Lab Tests <span>Offers <span>PLUS <span>Health Blogs</span></span></span></span></span> -->
+            <div id="belowNavdataContainer" class="container">
+                <p>Medicine</p>
+                <p>Healthcare</p>
+                <p>Lab Tests</p>
+                <p>Offers</p>
+                <p>PLUS</p>
+                <p>Health Blogs</p>
+            </div>
+
+
+
+
+            <!-- </div> -->
+        </div>
+
+    </div>
+
+
+    <!-- Product Section -->
+    <div class="container">
+        <div id="CartSection">
+
+
+            <div id="ProductSection">
+                <!-- <div id="IteminCartDiv">
+                     <h4 id="itemincart">2 Item in Cart</h4> -->
+                <!-- </div>  -->
+
+                <!-- <div id="ProductDetails">
+                    <div id="prodimg">
+                        <img src="https://cdn01.pharmeasy.in/dam/products_otc/I40695/dettol-antiseptic-liquid-bottle-of-550-ml-2-1656923531.jpg?dim=320x320&dpr=1&q=100"
+                            alt="">
+                    </div>
+                    <div id="prodnamediv">
+                        <h4 id="prodname">Dettol Anitseptic Liquid Bottle</h4>
+                        <p id="BrandName">by Dettol</p>
+                        <div id="qtysection">
+                            <button id="addqtybtn" type="button" class="btn btn-success">Add Qty
+                                <select name="addqty" id="AddQty">
+                                    <option selected>Select Qty</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+    
+                                </select> -->
+                <!-- </button>
+    
+                        </div>
+                        <P id="DeliveryDate">Delivery by Tommorow Before 10 pm</P>
+                    </div> -->
+                <!-- <div id="DeleteSection">
+                        <i id="delicon" class="fa-sharp fa-solid fa-trash"></i>
+                        <div id="mrp">
+                            <p>420.12 <span id="off">12% OFF</span></p>
+                        </div>
+                        <p id="Price">376.75</p>
+                    </div> -->
+                <!-- </div> -->
+            </div>
+
+            <div id="OrderSummarySection">
+                <div id="applyCoupon">
+                    <i class="fa-solid fa-tire-rugged"></i>
+                </div>
+                <button id="OrderBtn" onclick="Addressbtn()" type="button" class="btn btn-success">Add Delivery
+                    Address</button>
+                <Order id="Summary">
+                    <div id="priceBreakdown">
+
+                        <div id="cartValue">
+
+                            <br>
+                            <br>
+                            <p>Cart value </p>
+
+
+                            <hr id="hrlinePriceBreakdown">
+
+                            <p id="amttopay">Ammount to be paid</p>
+
+                            <hr id="hrlinePriceBreakdown2">
+                        </div>
+                        <div id="PriceBreakoutSection">
+
+                            <p id="CartValue"> 0 <span id="discount"></p>
+                            <hr id="hrlinePriceBreakdown1">
+                            <p id="AmountTobePaid"> 0</p>
+                            <hr id="hrlinePriceBreakdown2">
+                        </div>
+
+
+                    </div>
+                </Order>
+
+            </div>
+
+
+
+
+        </div>
+
+        <!-- Login Page -->
+
+        <div id="AdressPage">
+            <div id="logintop">
+                <button id="closebtnAdress"><i class="fas fa-times"></i></button>
+
+                <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt="">
+            </div>
+            <div id="loginbottom">
+                <form action="submit" id="AdressForm">
+                    <!-- <input placeholder="Enter Name" id="name" name="name" type="text" /> -->
+                    <label for="form">Delivery Name and Adress</label>
+                    <input type="text" name="name" placeholder="Enter Name" id="loginphone" class="Entername" required>
+                    <input type="text" phone="phone" placeholder="Adress" id="loginphone" class="EnternAdress" required>
+                    <input type="text" mobile="mobile" placeholder="Mobile Number" id="loginphone" class="EnterPhone"
+                        required>
+                    <input type="text" pincode="" pincode placeholder="PinCode" id="loginphone" class="EnterPinCode"
+                        required>
+                    <p id='errormsg'></p>
+                    <button id="Checkout" type="submit" class="btn btn-success">CheckOut</button>
+                    <!-- <button id="Checkout" type="submit">Checkout</button> -->
+                </form>
+
+
+
+
+
+                </form>
+                <p>By clicking continue, you agree with our <span>Privacy Policy</span></p>
+            </div>
+        </div>
+        <!--  -->
+
+
+        <!-- Deals of The day -->
+
+        <h4 id="DealsofTheDayH4">Limited Stock</h4>
+
+        <div id="DealsofTheDay"></div>
+
+        <!-- In The SpotLight -->
+        <div id="InTheSpotLightContainer">
+            <h4 id="InTheSpotLightH4">Product Frquently Bought Together</h4>
+            <div id="InTheSpotLight"></div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <div id="FooterPicSection">
+        <hr id="hrfooter1">
+        <div class="container">
+
+            <img id="Footerimg1" src="/Product page/img/Footer 1.png" alt="">
+        </div>
+        <hr id="hrfooter1">
+        <div class="container">
+            <img id="Footerimg2" src="/Product page/img/Footer 2.png" alt="">
+        </div>
+
+    </div>
+
+
+    <!-- Footer Linkes -->
+    <div id="Footer">
+
+        <div class="container">
+            <div id="FooterLinks">
+                <div id="FooterDiv1">
+                    <p>Company</p>
+                    <ul>About us</ul>
+                    <ul>Careers</ul>
+                    <ul>Blog</ul>
+                    <ul>Partner with PharmEasy</ul>
+                    <ul>Partner with PharmEasy</ul>
+
+                    <!-- <br> -->
+                    <p>Our Services</p>
+                    <ul>Order Medicine</ul>
+                    <ul>Healthcare Products</ul>
+                    <ul>Lab Tests</ul>
+                </div>
+
+                <div id="FooterDiv2">
+                    <p>Features Categories</p>
+                    <ul>Covid Essentials</ul>
+                    <ul>Personal Care</ul>
+                    <ul>Health Food and Drinks</ul>
+                    <ul>Beauty</ul>
+                    <ul>Skin Care</ul>
+                    <ul>Home Care</ul>
+                    <ul>Ayurvedic Care</ul>
+                    <ul>Sexual Wellness</ul>
+                    <ul>Sexual Wellness</ul>
+                    <ul>Fitness Supplements</ul>
+                    <ul>Mother and Baby Care</ul>
+                    <ul>Healthcare Devices</ul>
+                    <ul>Health Condition</ul>
+                    <ul>Diabetic Care</ul>
+                    <ul>Elderly Care</ul>
+                    <ul>Accessories And Wearables</ul>
+                    <ul>Top Products</ul>
+                </div>
+
+
+                <div id="FooterDiv3">
+                    <p>Need Help</p>
+                    <ul>Browse All Molecules</ul>
+                    <ul>Browse All Cities</ul>
+                    <ul>Browse All Areas</ul>
+                    <ul>Browse All Stores</ul>
+
+                    <!-- <br> -->
+                    <p>FAQs</p>
+                    <ul>Policy Info</ul>
+                    <ul>Editorial Policy</ul>
+                    <ul>Privacy Policy</ul>
+                    <ul>Vulnerability Disclosure Policy</ul>
+                    <ul>Terms and Conditions</ul>
+                    <ul>Customer Support Policy</ul>
+                    <ul>Return Policy</ul>
+                </div>
+
+                <div id="FooterDiv4">
+                    <p>Follow us on</p>
+                    <div id="Footer4SocialMediaIcon">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div id="FooterPayment">
+                <p id="FooterPaymentPatnerP">Our Payment Partners</p>
+                <div id="paymentimg">
+                    <img src="https://assets.pharmeasy.in/apothecary/images/gpay.png?dim=1440x0" alt="">
+                    <img src="https://assets.pharmeasy.in/apothecary/images/paytm.png?dim=1440x0" alt="">
+                    <img src="https://assets.pharmeasy.in/apothecary/images/phonepe.png?dim=1440x0" alt="">
+                    <img src="https://assets.pharmeasy.in/apothecary/images/amazon.png?dim=1440x0" alt="">
+                    <img src="https://assets.pharmeasy.in/apothecary/images/mobikwik.png?dim=1440x0" alt="">
+                    <img src="https://assets.pharmeasy.in/apothecary/images/olamoney.png?dim=1440x0" alt="">
+                    <img src="https://assets.pharmeasy.in/apothecary/images/maestro.png?dim=1440x0" alt="">
+                    <img src="https://assets.pharmeasy.in/apothecary/images/mastercard.png?dim=1440x0" alt="">
+                    <img src="https://assets.pharmeasy.in/apothecary/images/visa.png?dim=1440x0" alt="">
+                    <img src="https://assets.pharmeasy.in/apothecary/images/rupay.png?dim=1440x0" alt="">
+                    <p>© 2022 PharmEasy. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--  Toast Body -->
+    <h2>Toast</h2>
+    <p>Click on the button to show the Toast. It will disappear after 5 seconds.</p>
+
+    <button onclick="ItemDel_toast()">Show Toast</button>
+
+    <div id="toast">
+        <div id="img">
+            <i class="fa-sharp fa-solid fa-cart-plus"></i>
+        </div>
+        <div id="desc">Product Added To Cart</div>
+    </div>
+
+        <!-- Toast Body -->
+        <h2>Toast</h2>
+        <p>Click on the button to show the Toast. It will disappear after 5 seconds.</p>
+
+        <button onclick="QtyIec_toast()">Show Toast</button>
+
+        <div id="toast">
+            <div id="img">
+                <i class="fa-sharp fa-solid fa-cart-plus"></i>
+            </div>
+            <div id="desc">Product Added To Cart</div>
+        </div>>
+
+        
+        <!-- Toast Body -->
+        <h2>Toast</h2>
+        <p>Click on the button to show the Toast. It will disappear after 5 seconds.</p>
+
+        <button onclick="QtyDec_toast()">Show Toast</button>
+
+        <div id="toast">
+            <div id="img">
+                <i class="fa-sharp fa-solid fa-cart-plus"></i>
+            </div>
+            <div id="desc">Product Added To Cart</div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
+        <script src="/Cart_page/Cart.Page.js"></script>
+        <script src="https://kit.fontawesome.com/d6b32c1f32.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
