@@ -1,15 +1,19 @@
 /* Navbar Styles */
+
 .logo{
   width: 32vh;
   height: 25px;
   margin-left: 20px;
 }
 .navbar-section {
+  background-color: #fff;
   padding: 0 32px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 80px;
+  position: sticky;
+  top: 0;
   /* background-color: #d6e2f1; */
 }
 
