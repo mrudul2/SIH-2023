@@ -36,6 +36,9 @@ In modern hospitals, scheduling appointments efficiently is crucial for providin
 - [Proposal](https://docs.google.com/document/d/1vBLOfw_azhUD9h4L3tpkCjceVy3uDOMIiV4qIDHnVfw/edit#heading=h.z6ne0og04bp5)
 - [SIH-PPT](https://docs.google.com/presentation/d/1Pip5YzpohwuF93LjEvm0uEWO8D4DVRDwU_qcgSHWj8Q/edit#slide=id.g247279fa5fc_2_197)
 
+## Flowchart
+![flowchart](https://github.com/mrudul2/SIH-2023/assets/103999385/9a231930-4888-4fc4-8acc-3c3891346f83)
+
 ## 🤖Tech-Stack
 
 #### Front-end
