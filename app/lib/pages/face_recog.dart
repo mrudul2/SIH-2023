@@ -41,7 +41,7 @@ class _FaceRecognitionState extends State<FaceRecognition> {
                 onPressed: () {
                   _captureImage();
                 },
-                color: Colors.pink,
+                color: const Color(0xFF447bbe),
                 child: const Text(
                   "Open Camera",
                   style: TextStyle(

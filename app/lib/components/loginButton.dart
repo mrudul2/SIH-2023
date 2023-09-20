@@ -14,7 +14,7 @@ class LoginButton extends StatelessWidget {
         padding: const EdgeInsets.all(25),
         margin: const EdgeInsets.symmetric(horizontal: 25),
         decoration: const BoxDecoration(
-          color: Colors.black,
+          color: Color(0xFF447bbe),
           borderRadius: BorderRadius.all(Radius.circular(10)),
         ),
         child: const Center(
@@ -22,7 +22,8 @@ class LoginButton extends StatelessWidget {
             "Log In",
             style: TextStyle(
               color: Colors.white,
-              fontSize: 16,
+              fontWeight: FontWeight.bold,
+              fontSize: 18,
             ),
           ),
         ),

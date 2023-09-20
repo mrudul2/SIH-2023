@@ -20,10 +20,10 @@ class _HomePageState extends State<HomePage> {
   }
 
   final List<Widget> _pages = [
-    PatientPage(),
-    FaceRecognition(),
-    MapPage(),
-    DoctorProfile(),
+    const PatientPage(),
+    const FaceRecognition(),
+    const MapPage(),
+    const DoctorProfile(),
   ];
 
   @override
@@ -31,14 +31,17 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: _pages[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
+        fixedColor: const Color(0xFF447bbe),
         currentIndex: _selectedIndex,
         onTap: _navigateBar,
         type: BottomNavigationBarType.fixed,
-        items: [
-          BottomNavigationBarItem(icon: Icon(Icons.list), label: "Patients"),
+        items: const [
           BottomNavigationBarItem(
-              icon: Icon(Icons.face_6_sharp), label: "Face Recognition"),
-          BottomNavigationBarItem(icon: Icon(Icons.map), label: "Location"),
+              icon: Icon(Icons.list_alt), label: "Patients"),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.face), label: "Face Recognition"),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.location_on), label: "Location"),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
         ],
       ),

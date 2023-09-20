@@ -1,3 +1,4 @@
+import 'package:app/components/AppBar.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
@@ -15,7 +16,7 @@ class _PatientPageState extends State<PatientPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Patient Data")),
+      appBar: const MyAppBar(pageName: "Patient Data"),
       body: StreamBuilder(
         stream: patientData,
         builder: (context, snapshot) {
@@ -30,7 +31,7 @@ class _PatientPageState extends State<PatientPage> {
             itemCount: doc.length,
             itemBuilder: (context, index) {
               return ListTile(
-                leading: const Icon(Icons.person),
+                leading: const Icon(Icons.medical_services),
                 title: Text('${doc[index]['AppType']}'),
                 subtitle: Text('${doc[index]['Timeslot']}'),
               );

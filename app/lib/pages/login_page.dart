@@ -49,7 +49,9 @@ class _LoginPageState extends State<LoginPage> {
         email: emailController.text,
         password: passwordController.text,
       );
-      Navigator.pop(context);
+      if (mounted) {
+        Navigator.pop(context);
+      }
     } on FirebaseAuthException catch (e) {
       Navigator.pop(context);
       if (e.code == 'user-not-found') {
@@ -69,17 +71,21 @@ class _LoginPageState extends State<LoginPage> {
           child: Center(
             child: Column(
               children: [
-                const SizedBox(height: 50),
+                const SizedBox(height: 150),
                 // Logo
-                Icon(
-                  Icons.medical_services,
-                  size: 100,
+                Image(
+                  image: AssetImage('assets/images/logo.png'),
+                  width: 350,
                 ),
-                const SizedBox(height: 50),
+                const SizedBox(height: 100),
                 // Welcome Doctor!
                 Text(
                   "Welcome Doctor!",
-                  style: TextStyle(color: Colors.black, fontSize: 25),
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
                 const SizedBox(height: 50),
                 // Doctor Id
