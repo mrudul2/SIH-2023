@@ -13,8 +13,9 @@
 
 ## Table of Contents
 - [Problem Statement](#problem-statement)
+- [Links](#links)
+- [Tech-Stack](#techstack)
 - [Features](#features)
-- [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -27,7 +28,37 @@ In modern hospitals, scheduling appointments efficiently is crucial for providin
 - Identify doctor availability in real-time.
 - Automate appointment slot allocation based on doctor availability and the number of waitlisted patients.
 - Reduce patient waiting times and improve the overall patient experience.
-  
+
+## 🔗Links
+
+- [GitHub Repository](https://github.com/mrudul2/SIH-2023)
+- [Demo Video]()
+- [Proposal](https://docs.google.com/document/d/1vBLOfw_azhUD9h4L3tpkCjceVy3uDOMIiV4qIDHnVfw/edit#heading=h.z6ne0og04bp5)
+- [SIH-PPT](https://docs.google.com/presentation/d/1Pip5YzpohwuF93LjEvm0uEWO8D4DVRDwU_qcgSHWj8Q/edit#slide=id.g247279fa5fc_2_197)
+
+## 🤖Tech-Stack
+
+#### Front-end
+- HTML/CSS
+- JavaScript
+- ReactJS
+- LeafletJS [Documentation](https://leafletjs.com/reference.html)
+- ReduxJS [Documentation](https://redux.js.org/introduction/getting-started)
+- Flutter [Documentation](https://docs.flutter.dev/)
+
+#### Back-end
+- Node.js [Documentation](https://nodejs.org/en/docs/)
+- Express.js [Documentation](https://devdocs.io/express/)
+- Firebase [Documentation](https://firebase.google.com/docs)
+- socket.io [Documentation](https://socket.io/docs/v4/)
+- MongoDB [Documentation](https://www.mongodb.com/docs/)
+
+#### Machine Learning
+- TensorFlow [Documentation](https://www.tensorflow.org/api_docs)
+- scikit-learn [Documentation](https://scikit-learn.org/stable/)
+- DeepScan [Documentation](https://deepscan.io/docs/)
+
+
 ## Unveiling a Healthier Tomorrow
 
 ### **Goals**
