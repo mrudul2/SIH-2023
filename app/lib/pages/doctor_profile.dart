@@ -121,6 +121,14 @@ class _DoctorProfileState extends State<DoctorProfile> {
             doctorData["degree"].toString(),
             style: TextStyle(fontSize: 20, color: Colors.black),
           ),
+          Text(
+            "(In Hospital)",
+            style: TextStyle(
+              fontSize: 20,
+              color: Colors.red,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
         ],
       );
 }
