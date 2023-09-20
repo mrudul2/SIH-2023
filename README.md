@@ -1,8 +1,9 @@
 
 <h1 align="center">
   <a >
-    <img src="https://github.com/mrudul2/SIH-2023/assets/104382962/1e8a2c92-2f46-4963-938d-8f2cd9a69af6" alt="SIH-TechTeds" width="300" height="300">
+    <img src="https://github.com/mrudul2/SIH-2023/assets/103999385/4cf3b3d0-5600-4d31-b255-e1842004026c" alt="SIH-TechTeds" width="800" height="300">
   </a>
+  <br>
   <br>
   SwasthSaathi - Streamlining Medical Appointment Scheduling and Enhancing Healthcare Experience
 </h1>
