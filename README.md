@@ -1,5 +1,11 @@
-![logo-no-background(1)](https://github.com/mrudul2/SIH-2023/assets/104382962/1e8a2c92-2f46-4963-938d-8f2cd9a69af6)
-# SwasthSaathi - Streamlining Medical Appointment Scheduling and Enhancing Healthcare Experience
+
+<h1 align="center">
+  <a >
+    <img src="https://github.com/mrudul2/SIH-2023/assets/104382962/1e8a2c92-2f46-4963-938d-8f2cd9a69af6" alt="SIH-TechTeds" width="300" height="300">
+  </a>
+  <br>
+  SwasthSaathi - Streamlining Medical Appointment Scheduling and Enhancing Healthcare Experience
+</h1>
 
 
 **SwasthSaathi** is an innovative system designed to revolutionize the healthcare industry by simplifying medical appointment scheduling, ensuring efficient doctor presence tracking, and aiding in disease detection using advanced technologies. With a strong focus on improving patient experience and streamlining hospital operations, **SwasthSaathi** is the future of healthcare technology.
