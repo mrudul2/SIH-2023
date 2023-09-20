@@ -1,0 +1,222 @@
+.Heading {
+  font-size: 30px;
+  text-align: left;
+  font-weight: 550;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.Sub_Heading {
+  font-size: 16px;
+  text-align: left;
+  margin-top: -15px;
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.mainBox {
+  width: 90%;
+  margin: auto;
+  /* border-right: 1px solid rgb(225, 225, 225);
+    border-left: 1px solid rgb(225, 225, 225); */
+  padding: 5px;
+}
+.catMain_1 {
+  border: 0px solid red;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.catMain_1 div {
+  border: 0px solid green;
+  width: 80%;
+}
+.catMain_1 div img {
+  border: 0px solid blue;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.catMain_1 div p + p {
+  font-size: 13px;
+  color: orangered;
+}
+.catMain_1 div img:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* lab test */
+.LabBox {
+  border: 0px solid red;
+  display: flex;
+  justify-content: space-around;
+}
+.LabBox div img {
+  border: 0px solid blue;
+  width: 90%;
+  margin: auto;
+}
+.Offers {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.Offers div img {
+  width: 90%;
+  margin: auto;
+}
+
+/* prescription */
+.Order {
+  display: flex;
+  border: 1px solid rgb(230, 228, 228);
+  justify-content: space-between;
+  margin-top: 30px;
+  height: 200px;
+  align-items: center;
+}
+.OrderLeft {
+  border: 0px solid blue;
+  width: 38%;
+  display: flex;
+  text-align: left;
+  height: 200px;
+  background-color: #eef4ff;
+  align-items: center;
+}
+.OrderLeft div img {
+  height: 100px;
+  margin-left: 20px;
+}
+.OrderLeft div + div {
+  margin-left: 35px;
+}
+.OrderLeft div + div > h3 {
+  font-weight: 600;
+  text-align: left;
+}
+.OrderLeft div + div > Button {
+  margin-top: 10px;
+}
+.OrderRight {
+  border: 0px solid greenyellow;
+  width: 60%;
+}
+.OrderRight h4 {
+  text-align: left;
+}
+.OrderRight div {
+  display: flex;
+}
+
+/* shop by category */
+.ShopByCategory {
+  border: 0px solid red;
+  display: flex;
+  justify-content: space-around;
+}
+.ShopByCategory div img {
+  border: 0px solid blue;
+  width: 90%;
+  height: 130px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.ShopByCategory div img:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* New Launch */
+.NewLaunch {
+  border: 0px solid red;
+  display: flex;
+  justify-content: space-around;
+}
+.NewLaunch img {
+  border: 0px solid blue;
+
+  height: 130px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.NewLaunch img + div {
+  text-align: left;
+}
+
+/* purple box */
+.PurpleBox {
+  display: flex;
+  background-color: #8678de;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding-top: 30px;
+}
+.SubPurpleBox {
+  display: flex;
+  border: 0px solid red;
+  height: auto;
+  width: 30%;
+  margin-right: -60px;
+}
+.SubPurpleBox1 {
+  width: 30%;
+  border: 0px solid blue;
+  font-size: 22px;
+  font-weight: 500;
+}
+.SubPurpleBox2 {
+  width: 20%;
+  border: 0px solid yellowgreen;
+}
+.SubPurpleBox3 {
+  width: 30%;
+  border: 0px solid violet;
+  font-size: 22px;
+  font-weight: 500;
+}
+.SubPurpleBoxMid {
+  border: 0px solid blue;
+  width: 40%;
+  text-align: left;
+}
+.SubPurpleBoxMid Button {
+  margin-top: 20px;
+}
+.SubPurpleBoxRight {
+  border: 0px solid rgb(232, 252, 12);
+}
+/* concern */
+
+.ShopByConcern {
+  border: 0px solid red;
+  display: flex;
+  justify-content: space-around;
+}
+.ShopByConcern div img {
+  border: 0px solid blue;
+  width: 90%;
+  height: 130px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.ShopByConcern div img:hover {
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Articles */
+.Articles {
+  border: 0px solid red;
+  display: flex;
+  justify-content: space-around;
+}
+.Articles div img {
+  border: 0px solid blue;
+  width: 90%;
+  height: 130px;
+  margin: auto;
+  margin-bottom: 10px;
+}

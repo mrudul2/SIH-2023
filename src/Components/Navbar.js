@@ -8,7 +8,7 @@ import {
 import "../Styles/Navbar.css";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
-import Logo from "../Assets/Images/Logo/swasthsathi-navBar-Logo.png";
+import Logo from "../Assets/Images/Logo/logo1.png";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -65,7 +65,7 @@ function Navbar() {
         </li>
         <li>
           <a
-            href="https://sih-medicine-delivery.netlify.app/"
+            href="http://localhost:3000/SwasthSaathi/medicinedelivery"
             className="navbar-links"
           >
             Medicine

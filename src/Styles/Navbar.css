@@ -1,8 +1,9 @@
 /* Navbar Styles */
 .logo{
   width: 32vh;
-  height: 25px;
+  height: 45px;
   margin-left: 20px;
+  margin-top: 1vh;
 }
 .navbar-section {
   padding: 0 32px;

@@ -26,6 +26,8 @@ import APItesting from "./Components/apitesting";
 import MainMap from "./EmergencyMap/MainMap";
 import AppointmentForm from "./Components/AppointmentForm";
 import DiseasePrediction from "./Components/DiseasePrediction";
+import FlaskIntegration from "./Components/FlaskIntegration";
+import Meds from "./Medicine Delivery/Meds";
 
 function App() {
   const [userState, setUserState] = useState({});
@@ -47,7 +49,8 @@ function App() {
           <Route path="/apitesting" element={<APItesting />} />
           <Route path="/emergencymap" element={<MainMap />} />
           <Route path="/diseaseprediction" element={<DiseasePrediction/>} />
-
+          <Route path="/gradio" element={<FlaskIntegration/>} />
+          <Route path="/medicinedelivery" element={<Meds/>} />
           <Route
             path="/user-login"
             element={
