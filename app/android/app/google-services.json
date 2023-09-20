@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "51356535439",
+    "project_id": "sihdata-5b811",
+    "storage_bucket": "sihdata-5b811.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51356535439:android:b81c89173394c683cb3efa",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD35CyokDkGjetbo8dkGDj9fdtzcjTsv4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
