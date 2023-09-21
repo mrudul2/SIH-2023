@@ -158,7 +158,7 @@ To use the Hospital Appointment Scheduling System, follow these steps:
 ## Contributors
 - [Mrudul Joshi - ](https://github.com/mrudul2) [EMail](mailto:mruduljoshi02@gmail.com) :e-mail:
 - [Aishwarya Ravi - ](https://github.com/AishwaryaRavi07) [EMail](mailto:aravi_b21@el.vjti.ac.in) :e-mail:
-- [Soham Sangole - ](https://github.com/Sohamlad2003) [EMail](mailto:sohamajaysangole@gmail.com) :e-mail:
+- [Soham Sangole - ](https://github.com/sohamsangole) [EMail](mailto:sohamajaysangole@gmail.com) :e-mail:
 - [Abhishek Dubey - ](https://github.com/AbhiD1678) [EMail](mailto:avdubey_b21@el.vjti.ac.in) :e-mail:
 - [Nidhi Shah - ](https://github.com/AishwaryaRavi07) [EMail](mailto:npshah_b21@it.vjti.ac.in) :e-mail:
 - [Subodh Dalvi - ](https://github.com/HumourousTree) [EMail](mailto:ssdalvi_b21@ce.vjti.ac.in) :e-mail:
