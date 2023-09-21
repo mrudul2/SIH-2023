@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <a >
-    <img src="https://github.com/mrudul2/SIH-2023/blob/main/logo-no-background.png" alt="SIH-TechTeds" width="80" height="90">
+    <img src="https://github.com/mrudul2/SIH-2023/blob/main/logo-no-background.png" alt="SIH-TechTeds" width="90" height="90">
   </a>
   <br>
   <br>
