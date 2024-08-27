@@ -5,11 +5,11 @@
   </a>
   <br>
   <br>
-  SwasthSaathi - Streamlining Medical Appointment Scheduling and Enhancing Healthcare Experience
+  CareHub- Streamlining Medical Appointment Scheduling and Enhancing Healthcare Experience
 </h1>
 
 
-**SwasthSaathi** is an innovative system designed to revolutionize the healthcare industry by simplifying medical appointment scheduling, ensuring efficient doctor presence tracking, and aiding in disease detection using advanced technologies. With a strong focus on improving patient experience and streamlining hospital operations, **SwasthSaathi** is the future of healthcare technology.
+**CareHub** is an innovative system designed to revolutionize the healthcare industry by simplifying medical appointment scheduling, ensuring efficient doctor presence tracking, and aiding in disease detection using advanced technologies. With a strong focus on improving patient experience and streamlining hospital operations, **CareHub** is the future of healthcare technology.
 
 ## Table of Contents
 - [Problem Statement](#problem-statement)
